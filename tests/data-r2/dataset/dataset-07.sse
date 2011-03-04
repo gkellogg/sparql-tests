@@ -1,5 +1,6 @@
 (prefix ((: <http://example/>))
-  (union
-    (bgp (triple ?s ?p ?o))
-    (graph ?g
-      (bgp (triple ?s ?p ?o)))))
+  (dataset (<data-g1.ttl> (named <data-g2.ttl>))
+    (union
+      (bgp (triple ?s ?p ?o))
+      (graph ?g
+        (bgp (triple ?s ?p ?o))))))

@@ -1,2 +1,3 @@
 (prefix ((: <http://example/>))
-  (bgp (triple ?s ?p ?o)))
+  (dataset (<data-g1.ttl>)
+    (bgp (triple ?s ?p ?o))))
