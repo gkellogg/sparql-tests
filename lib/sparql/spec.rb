@@ -1,4 +1,5 @@
 require 'rdf'   # @see http://rubygems.org/gems/rdf
+require 'rdf/ntriples'
 require 'rdf/n3'
 require 'rspec' # @see http://rubygems.org/gems/rspec
 
@@ -46,81 +47,92 @@ module SPARQL
     autoload :ResultBindings, 'sparql/spec/models'
 
     # Module functions
-    def self.load_sparql1_0_tests
+    
+    ##
+    # Load tests from the specified file/uri.
+    # @param [String] manifest_uri
+    # @param [Hash<Symbol => Object>] options
+    # @option options [String] :base_uri (manifest_uri)
+    # @option options [String] :context (nil)
+    # @option options [String] :context (nil)
+    # @option options [String] :include_files (nil)
+    #   Load included manifests
+    # @return [Array<SPARQL::Spec::SPARQLTest>]
+    def self.load_tests(manifest_uri, options = {})
+      options[:base_uri] ||= manifest_uri
+
       require 'spira'
-      base_directory = File.join(File.expand_path(File.dirname(__FILE__)), '..', '..', 'tests')
-      if ENV['MANIFEST']
-        puts "Loading tests from #{ENV['MANIFEST']}"
-        test_repo = RDF::Repository.new
-        Spira.add_repository(:default, test_repo)
-        # I'm not sure why this is correct--why not dirname?
-        base_uri = ENV['MANIFEST']
-        manifest_file = ENV['MANIFEST']
-        test_repo.load(manifest_file, :base_uri => base_uri, :context => ENV['MANIFEST'])
+
+      puts "Loading tests from #{manifest_uri}"
+      test_repo = RDF::Repository.new
+      Spira.add_repository(:default, test_repo)
+      test_repo.load(manifest_uri, options)
+      if options[:include_files]
+        Manifest.each { |manifest| manifest.include_files! }
         tests = Manifest.each.map { |m| m.entries }.flatten.find_all { |t| t.approved? }
-        tests.each { |test| test.update!(:manifest => ENV['MANIFEST']) }
+        tests.each { |test|
+          test.tags << 'status:unverified'
+          test.tags << 'w3c_status:unapproved' unless test.approved?
+          test.update!(:manifest => test.data.each_context.first)
+        }
       else
-        cache_file = 
-        if File.exists?('./sparql-specs-1_0-cache.nt')
-          puts "Using cached manifests"
-          Spira.add_repository(:default, RDF::Repository.load('./sparql-specs-1_0-cache.nt'))
-          tests = Manifest.each.map { |m| m.entries }.flatten.find_all { |t| t.approved? }
-        else
-          puts "building manifests..."
-          test_repo = RDF::Repository.new
-          Spira.add_repository(:default, test_repo)
-          test_repo.load("#{base_directory}/data-r2/manifest-evaluation.ttl", :base_uri => "#{base_directory}/data-r2/")
-          Manifest.each do |manifest| manifest.include_files! end
-          tests = Manifest.each.map { |m| m.entries }.flatten.find_all { |t| !t.result.nil? }
-          tests.each { |test|
-            test.tags << 'status:unverified'
-            test.tags << 'w3c_status:unapproved' unless test.approved?
-            test.update!(:manifest => test.data.each_context.first)
-          }
-          File.open('./sparql-specs-1_0-cache.nt', 'w+') do |file|
-            file.write RDF::Writer.for(:ntriples).dump(Spira.repository(:default))
-          end
-        end
+        tests = Manifest.each.map { |m| m.entries }.flatten.find_all { |t| t.approved? }
+        tests.each { |test| test.update!(:manifest => manifest_file) unless test.manifest }
       end
-      tests
     end
 
-    def self.load_sparql1_1_tests
-      require 'spira'
+    def self.load_sparql1_0_tests(cache = true)
       base_directory = File.join(File.expand_path(File.dirname(__FILE__)), '..', '..', 'tests')
+      cache_file = './sparql-specs-1_0-cache.nt'
       if ENV['MANIFEST']
-        puts "Loading tests from #{ENV['MANIFEST']}"
-        test_repo = RDF::Repository.new
-        Spira.add_repository(:default, test_repo)
-        # I'm not sure why this is correct--why not dirname?
-        base_uri = ENV['MANIFEST']
-        manifest_file = ENV['MANIFEST']
-        test_repo.load(manifest_file, :base_uri => base_uri, :context => ENV['MANIFEST'])
-        tests = Manifest.each.map { |m| m.entries }.flatten.find_all { |t| t.approved? }
-        tests.each { |test| test.update!(:manifest => ENV['MANIFEST']) }
+        self.load_tests(ENV['MANIFEST'], :context => ENV['MANIFEST'])
+      elsif File.exists?(cache_file)
+        self.load_tests(cache_file)
       else
-        if File.exists?('./sparql-specs-cache.nt')
-          puts "Using cached manifests"
-          Spira.add_repository(:default, RDF::Repository.load('./sparql-specs-cache.nt'))
-          tests = Manifest.each.map { |m| m.entries }.flatten.find_all { |t| t.approved? }
-        else
-          puts "building manifests..."
-          test_repo = RDF::Repository.new
-          Spira.add_repository(:default, test_repo)
-          test_repo.load("#{base_directory}/sparql11-tests/data-sparql11/manifest-all.ttl", :base_uri => "#{base_directory}/sparql11-tests/data-sparql11/")
-          Manifest.each do |manifest| manifest.include_files! end
-          tests = Manifest.each.map { |m| m.entries }.flatten.find_all { |t| !t.result.nil? }
-          tests.each { |test|
-            test.tags << 'status:unverified'
-            test.tags << 'w3c_status:unapproved' unless test.approved?
-            test.update!(:manifest => test.data.each_context.first)
-          }
-          File.open('./sparql-specs-cache.nt', 'w+') do |file|
+        tests = self.load_tests("#{base_directory}/data-r2/manifest-evaluation.ttl", :include_files => true)
+        if cache
+          File.open(cache_file, 'w+') do |file|
             file.write RDF::Writer.for(:ntriples).dump(Spira.repository(:default))
           end
         end
+        tests
       end
-      tests
+    end
+
+    def self.load_sparql1_0_syntax_tests(cache = true)
+      base_directory = File.join(File.expand_path(File.dirname(__FILE__)), '..', '..', 'tests')
+      cache_file = './sparql-specs-1_0_syntax-cache.nt'
+      if ENV['MANIFEST']
+        self.load_tests(ENV['MANIFEST'], :context => ENV['MANIFEST'])
+      elsif File.exists?(cache_file)
+        self.load_tests(cache_file)
+      else
+        tests = self.load_tests("#{base_directory}/data-r2/manifest-syntax.ttl", :include_files => true)
+        if cache
+          File.open(cache_file, 'w+') do |file|
+            file.write RDF::Writer.for(:ntriples).dump(Spira.repository(:default))
+          end
+        end
+        tests
+      end
+    end
+
+    def self.load_sparql1_1_tests(cache = true)
+      base_directory = File.join(File.expand_path(File.dirname(__FILE__)), '..', '..', 'tests')
+      cache_file = './sparql-specs-cache.nt'
+      if ENV['MANIFEST']
+        self.load_tests(ENV['MANIFEST'], :context => ENV['MANIFEST'])
+      elsif File.exists?(cache_file)
+        self.load_tests(cache_file)
+      else
+        tests = self.load_tests("#{base_directory}/sparql11-tests/data-sparql11/manifest-all.ttl", :include_files => true)
+        if cache
+          File.open(cache_file, 'w+') do |file|
+            file.write RDF::Writer.for(:ntriples).dump(Spira.repository(:default))
+          end
+        end
+        tests
+      end
     end
   end # Spec
 end # RDF
