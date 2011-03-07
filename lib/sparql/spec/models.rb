@@ -1,6 +1,6 @@
 require 'rdf'
 require 'spira'
-require 'rdf/raptor'
+require 'rdf/n3'
 require 'rdf/isomorphic'
 
 module SPARQL::Spec

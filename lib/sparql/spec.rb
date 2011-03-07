@@ -1,4 +1,5 @@
 require 'rdf'   # @see http://rubygems.org/gems/rdf
+require 'rdf/n3'
 require 'rspec' # @see http://rubygems.org/gems/rspec
 
 module SPARQL
