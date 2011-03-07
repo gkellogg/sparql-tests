@@ -22,18 +22,37 @@ module SPARQL::Spec
     def include_files!
       manifests.each do |manifest|
         RDF::List.new(manifest, self.class.repository).each do |file|
-          next if file.path =~ /(clear|drop|basic-update|delete|syntax)/ 
-          puts "Loading #{file.path}"
-          self.class.repository.load(file.path, :context => file.path)
+          case file.path
+          when /(clear|drop|basic-update|delete)/ 
+            next
+          else
+            puts "Loading #{file.path}"
+            self.class.repository.load(file.path, :context => file.path)
+          end
         end
       end
     end
   end
 
   class SPARQLTest < Spira::Base
+    Struct.new("MF_Action", :query_file, :data, :graphData) do
+      def query_string
+        IO.read(query_file.path)
+      end
+
+      def sse_file
+        RDF::URI(query_file.to_s.sub(/.rq$/, ".sse"))
+      end
+
+      def sse_string
+        IO.read(sse_file.path)
+      end
+    end
+
     property :name, :predicate => MF.name
     property :comment, :predicate => RDFS.comment
-    property :action, :predicate => MF.action, :type => 'SPARQLAction'
+    property :_action_indr, :predicate => MF.action, :type => 'SPARQLAction'
+    property :_action_resource, :predicate => MF.action
     property :result, :predicate => MF.result
     property :approval, :predicate => DAWG.approval
     property :approved_by, :predicate => DAWG.approvedBy
@@ -41,6 +60,11 @@ module SPARQL::Spec
 
     has_many :tags, :predicate => MF.tag
 
+    # For Syntax tests, mf:action is a simple URI, otherwise, is a SPARQLAction
+    def action
+      @action ||= _action_resource.node? ? _action_indr : Struct::MF_Action.new(_action_resource)
+    end
+    
     def approved?
       approval == DAWG.Approved
     end
