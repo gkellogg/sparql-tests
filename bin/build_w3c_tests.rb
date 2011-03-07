@@ -1,9 +1,9 @@
-## TODO: ask results are just 'true' on the line, not 'expected = '
 #!/usr/bin/env ruby
+## TODO: ask results are just 'true' on the line, not 'expected = '
 
 $:.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 
-require 'sparql/spec/models'
+require 'sparql/spec'
 require 'sparql/client'
 require 'erubis'
 
@@ -38,7 +38,7 @@ end
 
 def select_results_snippet(test)
   results = if File.extname(test.result.path) == '.srx'
-    SPARQL::Client.new("").parse_xml_bindings(File.read(test.result.path)).map { |result| result.to_hash }
+    SPARQL::Client.parse_xml_bindings(File.read(test.result.path)).map { |result| result.to_hash }
   else
     expected_repository = RDF::Repository.new 
     Spira.add_repository!(:results, expected_repository)
@@ -51,7 +51,7 @@ end
 
 def ask_results_snippet(test)
   if File.extname(test.result.path) == '.srx'
-    SPARQL::Client.new("").parse_xml_bindings(File.read(test.result.path))
+    SPARQL::Client.parse_xml_bindings(File.read(test.result.path))
   else
     expected_repository = RDF::Repository.new 
     Spira.add_repository!(:results, expected_repository)
