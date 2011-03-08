@@ -36,9 +36,9 @@ module SPARQL::Spec
 
   class SPARQLTest < Spira::Base
     property :name, :predicate => MF.name
+    property :type, :predicate => RDF.type
     property :comment, :predicate => RDFS.comment
-    property :_action_indr, :predicate => MF.action, :type => 'SPARQLAction'
-    property :_action_resource, :predicate => MF.action
+    property :_action, :predicate => MF.action, :type => 'SPARQLAction'
     property :result, :predicate => MF.result
     property :approval, :predicate => DAWG.approval
     property :approved_by, :predicate => DAWG.approvedBy
@@ -51,6 +51,7 @@ module SPARQL::Spec
       SPARQLTestYAML.new(
         subject.to_s,
         name,
+        (type ? type.to_s : nil),
         comment,
         (action.query_file ? action.query_file.to_s : nil),
         (action.test_data ? action.test_data.to_s : nil),
@@ -63,10 +64,10 @@ module SPARQL::Spec
     
     # For Syntax tests, mf:action is a simple URI, otherwise, is a SPARQLAction
     def action
-      @action ||= if _action_indr.is_a?(RDF::URI)
-        SPARQLAction.new {|a| a.query_file = _action_resource }
+      @action ||= if _action.query_file
+        _action
       else
-        _action_indr
+        SPARQLAction.new {|a| a.query_file = _action.subject }
       end
     end
     
@@ -78,6 +79,7 @@ module SPARQL::Spec
       "[#{self.class.to_s} " + %w(
         subject
         name
+        type
         result
         approved?
       ).map {|a| v = self.send(a); "#{a}='#{v}'" if v}.compact.join(", ") +
@@ -109,12 +111,12 @@ module SPARQL::Spec
     end
   end
 
-  SPARQLTestYAML = Struct.new(:subject, :name, :comment, :query_file, :test_data, :result, :approval, :approved_by, :manifest, :tags) do
+  SPARQLTestYAML = Struct.new(:subject, :name, :type, :comment, :query_file, :test_data, :result, :approval, :approved_by, :manifest, :tags) do
     def to_test
-      puts "generate test from #{inspect}"
       SPARQLTest.new do |test|
         #test.subject = RDF::URI(subject)
         test.name = name
+        test.type = RDF::URI(type) if type
         test.comment = comment
         test.action = SPARQLAction.new do |a|
           a.query_file = RDF::URI(query_file)
