@@ -2,8 +2,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-basic-01
   name: syntax-basic-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-basic-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -15,8 +16,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-basic-02
   name: syntax-basic-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-basic-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -28,8 +30,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-basic-03
   name: syntax-basic-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-basic-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -41,8 +44,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-basic-04
   name: syntax-basic-04.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-basic-04.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -54,8 +58,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-basic-05
   name: syntax-basic-05.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-basic-05.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -67,8 +72,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-basic-06
   name: syntax-basic-06.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-basic-06.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -80,8 +86,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-qname-01
   name: syntax-qname-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-qname-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -93,8 +100,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-qname-02
   name: syntax-qname-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-qname-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -106,8 +114,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-qname-03
   name: syntax-qname-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-qname-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -119,8 +128,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-qname-04
   name: syntax-qname-04.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-qname-04.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -132,8 +142,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-qname-05
   name: syntax-qname-05.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-qname-05.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -145,8 +156,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-qname-06
   name: syntax-qname-06.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-qname-06.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -158,8 +170,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-qname-07
   name: syntax-qname-07.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-qname-07.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -171,8 +184,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-qname-08
   name: syntax-qname-08.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-qname-08.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -184,8 +198,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-01
   name: syntax-lit-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -197,8 +212,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-02
   name: syntax-lit-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -210,8 +226,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-03
   name: syntax-lit-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -223,8 +240,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-04
   name: syntax-lit-04.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-04.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -236,8 +254,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-05
   name: syntax-lit-05.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-05.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -249,8 +268,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-06
   name: syntax-lit-06.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-06.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -262,8 +282,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-07
   name: syntax-lit-07.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-07.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -275,8 +296,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-08
   name: syntax-lit-08.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-08.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -288,8 +310,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-09
   name: syntax-lit-09.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-09.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -301,8 +324,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-10
   name: syntax-lit-10.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-10.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -314,8 +338,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-11
   name: syntax-lit-11.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-11.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -327,8 +352,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-12
   name: syntax-lit-12.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-12.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -340,8 +366,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-13
   name: syntax-lit-13.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-13.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -353,8 +380,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-14
   name: syntax-lit-14.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-14.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -366,8 +394,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-15
   name: syntax-lit-15.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-15.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -379,8 +408,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-16
   name: syntax-lit-16.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-16.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -392,8 +422,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-17
   name: syntax-lit-17.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-17.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -405,8 +436,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-18
   name: syntax-lit-18.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-18.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -418,8 +450,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-19
   name: syntax-lit-19.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-19.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -431,8 +464,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-20
   name: syntax-lit-20.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-20.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -444,8 +478,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-01
   name: syntax-struct-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -457,8 +492,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-02
   name: syntax-struct-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -470,8 +506,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-03
   name: syntax-struct-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -483,8 +520,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-05
   name: syntax-struct-05.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-05.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -496,8 +534,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-06
   name: syntax-struct-06.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-06.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -509,8 +548,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-07
   name: syntax-struct-07.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-07.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -522,8 +562,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-08
   name: syntax-struct-08.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-08.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -535,8 +576,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-09
   name: syntax-struct-09.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-09.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -548,8 +590,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-10
   name: syntax-struct-10.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-10.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -561,8 +604,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-11
   name: syntax-struct-11.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-11.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -574,8 +618,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-12
   name: syntax-struct-12.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-12.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -587,8 +632,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-13
   name: syntax-struct-13.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-13.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -600,8 +646,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-14
   name: syntax-struct-14.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-14.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -613,8 +660,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lists-01
   name: syntax-lists-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lists-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -626,8 +674,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lists-02
   name: syntax-lists-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lists-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -639,8 +688,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lists-03
   name: syntax-lists-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lists-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -652,8 +702,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lists-04
   name: syntax-lists-04.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lists-04.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -665,8 +716,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lists-05
   name: syntax-lists-05.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lists-05.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -678,8 +730,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-bnodes-01
   name: syntax-bnodes-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-bnodes-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -691,8 +744,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-bnodes-02
   name: syntax-bnodes-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-bnodes-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -704,8 +758,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-bnodes-03
   name: syntax-bnodes-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-bnodes-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -717,8 +772,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-bnodes-04
   name: syntax-bnodes-04.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-bnodes-04.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -730,8 +786,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-bnodes-05
   name: syntax-bnodes-05.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-bnodes-05.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -743,8 +800,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-forms-01
   name: syntax-forms-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-forms-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -756,8 +814,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-forms-02
   name: syntax-forms-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-forms-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -769,8 +828,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-union-01
   name: syntax-union-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-union-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -782,8 +842,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-union-02
   name: syntax-union-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-union-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -795,8 +856,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-expr-01
   name: syntax-expr-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-expr-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -808,8 +870,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-expr-02
   name: syntax-expr-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-expr-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -821,8 +884,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-expr-03
   name: syntax-expr-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-expr-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -834,8 +898,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-expr-04
   name: syntax-expr-04.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-expr-04.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -847,8 +912,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-expr-05
   name: syntax-expr-05.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-expr-05.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -860,8 +926,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-order-01
   name: syntax-order-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-order-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -873,8 +940,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-order-02
   name: syntax-order-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-order-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -886,8 +954,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-order-03
   name: syntax-order-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-order-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -899,8 +968,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-order-04
   name: syntax-order-04.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-order-04.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -912,8 +982,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-order-05
   name: syntax-order-05.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-order-05.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -925,8 +996,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-order-06
   name: syntax-order-06.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-order-06.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -938,8 +1010,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-order-07
   name: syntax-order-07.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-order-07.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -951,8 +1024,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-limit-offset-01
   name: syntax-limit-offset-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-limit-offset-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -964,8 +1038,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-limit-offset-02
   name: syntax-limit-offset-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-limit-offset-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -977,8 +1052,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-limit-offset-03
   name: syntax-limit-offset-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-limit-offset-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -990,8 +1066,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-limit-offset-04
   name: syntax-limit-offset-04.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-limit-offset-04.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1003,8 +1080,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-pat-01
   name: syntax-pat-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-pat-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1016,8 +1094,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-pat-02
   name: syntax-pat-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-pat-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1029,8 +1108,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-pat-03
   name: syntax-pat-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-pat-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1042,8 +1122,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-pat-04
   name: syntax-pat-04.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-pat-04.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1055,8 +1136,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-01
   name: syntax-general-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1068,8 +1150,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-02
   name: syntax-general-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1081,8 +1164,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-03
   name: syntax-general-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1094,8 +1178,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-04
   name: syntax-general-04.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-04.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1107,8 +1192,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-05
   name: syntax-general-05.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-05.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1120,8 +1206,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-06
   name: syntax-general-06.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-06.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1133,8 +1220,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-07
   name: syntax-general-07.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-07.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1146,8 +1234,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-08
   name: syntax-general-08.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-08.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1159,8 +1248,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-09
   name: syntax-general-09.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-09.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1172,8 +1262,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-10
   name: syntax-general-10.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-10.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1185,8 +1276,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-11
   name: syntax-general-11.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-11.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1198,8 +1290,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-12
   name: syntax-general-12.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-12.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1211,8 +1304,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-13
   name: syntax-general-13.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-13.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1224,8 +1318,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-14
   name: syntax-general-14.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-14.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1237,8 +1332,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-keywords-01
   name: syntax-keywords-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-keywords-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1250,8 +1346,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-keywords-02
   name: syntax-keywords-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-keywords-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1263,8 +1360,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-keywords-03
   name: syntax-keywords-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-keywords-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1276,8 +1374,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-lists-01
   name: syntax-lists-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-lists-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1289,8 +1388,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-lists-02
   name: syntax-lists-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-lists-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1302,8 +1402,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-lists-03
   name: syntax-lists-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-lists-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1315,8 +1416,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-lists-04
   name: syntax-lists-04.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-lists-04.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1328,8 +1430,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-lists-05
   name: syntax-lists-05.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-lists-05.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1341,8 +1444,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-bnode-01
   name: syntax-bnode-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-bnode-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1354,8 +1458,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-bnode-02
   name: syntax-bnode-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-bnode-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1367,8 +1472,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-bnode-03
   name: syntax-bnode-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-bnode-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1380,8 +1486,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-function-01
   name: syntax-function-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-function-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1393,8 +1500,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-function-02
   name: syntax-function-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-function-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1406,8 +1514,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-function-03
   name: syntax-function-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-function-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1419,8 +1528,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-function-04
   name: syntax-function-04.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-function-04.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1432,8 +1542,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-select-01
   name: syntax-form-select-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-select-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1445,8 +1556,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-select-02
   name: syntax-form-select-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-select-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1458,8 +1570,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-ask-02
   name: syntax-form-ask-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-ask-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1471,8 +1584,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-construct01
   name: syntax-form-construct01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-construct01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1484,8 +1598,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-construct02
   name: syntax-form-construct02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-construct02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1497,8 +1612,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-construct03
   name: syntax-form-construct03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-construct03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1510,8 +1626,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-construct04
   name: syntax-form-construct04.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-construct04.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1523,8 +1640,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-construct06
   name: syntax-form-construct06.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-construct06.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1536,8 +1654,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-describe01
   name: syntax-form-describe01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-describe01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1549,8 +1668,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-describe02
   name: syntax-form-describe02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-describe02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1562,8 +1682,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-dataset-01
   name: syntax-dataset-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-dataset-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1575,8 +1696,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-dataset-02
   name: syntax-dataset-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-dataset-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1588,8 +1710,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-dataset-03
   name: syntax-dataset-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-dataset-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1601,8 +1724,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-dataset-04
   name: syntax-dataset-04.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-dataset-04.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1614,8 +1738,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-graph-01
   name: syntax-graph-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-graph-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1627,8 +1752,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-graph-02
   name: syntax-graph-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-graph-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1640,8 +1766,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-graph-03
   name: syntax-graph-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-graph-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1653,8 +1780,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-graph-04
   name: syntax-graph-04.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-graph-04.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1666,8 +1794,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-graph-05
   name: syntax-graph-05.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-graph-05.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1679,8 +1808,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-esc-01
   name: syntax-esc-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-esc-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1692,8 +1822,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-esc-02
   name: syntax-esc-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-esc-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1705,8 +1836,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-esc-03
   name: syntax-esc-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-esc-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1718,8 +1850,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-esc-04
   name: syntax-esc-04.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-esc-04.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1731,8 +1864,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-esc-05
   name: syntax-esc-05.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-esc-05.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1744,8 +1878,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-01
   name: syn-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1757,8 +1892,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-02
   name: syn-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1770,8 +1906,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-03
   name: syn-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1783,8 +1920,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-04
   name: syn-04.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-04.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1796,8 +1934,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-05
   name: syn-05.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-05.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1809,8 +1948,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-06
   name: syn-06.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-06.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1822,8 +1962,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-07
   name: syn-07.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-07.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1835,8 +1976,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-08
   name: syn-08.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-08.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1848,8 +1990,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-01
   name: syn-bad-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1861,8 +2004,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-02
   name: syn-bad-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1874,8 +2018,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-03
   name: syn-bad-03.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-03.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1887,8 +2032,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-04
   name: syn-bad-04.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-04.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1900,8 +2046,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-05
   name: syn-bad-05.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-05.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1913,8 +2060,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-06
   name: syn-bad-06.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-06.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1926,8 +2074,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-07
   name: syn-bad-07.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-07.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1939,8 +2088,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-08
   name: syn-bad-08.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-08.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1952,8 +2102,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-09
   name: syn-bad-09.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-09.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1965,8 +2116,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-10
   name: syn-bad-10.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-10.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1978,8 +2130,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-11
   name: syn-bad-11.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-11.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -1991,8 +2144,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-12
   name: syn-bad-12.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-12.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2004,8 +2158,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-13
   name: syn-bad-13.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-13.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2017,8 +2172,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-14
   name: syn-bad-14.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-14.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2030,8 +2186,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-15
   name: syn-bad-15.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-15.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2043,8 +2200,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-16
   name: syn-bad-16.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-16.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2056,8 +2214,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-17
   name: syn-bad-17.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-17.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2069,8 +2228,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-18
   name: syn-bad-18.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-18.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2082,8 +2242,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-19
   name: syn-bad-19.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-19.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2095,8 +2256,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-20
   name: syn-bad-20.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-20.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2108,8 +2270,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-21
   name: syn-bad-21.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-21.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2121,8 +2284,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-22
   name: syn-bad-22.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-22.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2134,8 +2298,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-23
   name: syn-bad-23.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-23.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2147,8 +2312,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-24
   name: syn-bad-24.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-24.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2160,8 +2326,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-25
   name: syn-bad-25.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-25.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2173,8 +2340,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-26
   name: syn-bad-26.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-26.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2186,8 +2354,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-27
   name: syn-bad-27.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-27.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2199,8 +2368,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-28
   name: syn-bad-28.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-28.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2212,8 +2382,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-29
   name: syn-bad-29.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-29.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2225,8 +2396,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-30
   name: syn-bad-30.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-30.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2238,8 +2410,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-31
   name: syn-bad-31.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-31.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2251,8 +2424,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#bnode-dot
   name: syn-bad-bnode-dot.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-bnode-dot.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2264,8 +2438,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#bnodes-missing-pvalues-01
   name: syn-bad-bnodes-missing-pvalues-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-bnodes-missing-pvalues-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2277,8 +2452,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#bnodes-missing-pvalues-02
   name: syn-bad-bnodes-missing-pvalues-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-bnodes-missing-pvalues-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2290,8 +2466,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#empty-optional-01
   name: syn-bad-empty-optional-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-empty-optional-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2303,8 +2480,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#empty-optional-02
   name: syn-bad-empty-optional-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-empty-optional-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2316,8 +2494,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#filter-missing-parens
   name: syn-bad-filter-missing-parens.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-filter-missing-parens.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2329,8 +2508,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#lone-list
   name: syn-bad-lone-list.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-lone-list.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2342,8 +2522,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#lone-node
   name: syn-bad-lone-node.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-lone-node.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2355,8 +2536,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#blabel-cross-filter
   name: syn-blabel-cross-filter
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-blabel-cross-filter.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2368,8 +2550,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#blabel-cross-graph-bad
   name: syn-blabel-cross-graph-bad
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-blabel-cross-graph-bad.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2381,8 +2564,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#blabel-cross-optional-bad
   name: syn-blabel-cross-optional-bad
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-blabel-cross-optional-bad.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2394,8 +2578,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#blabel-cross-union-bad
   name: syn-blabel-cross-union-bad
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-blabel-cross-union-bad.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2407,8 +2592,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-09
   name: syn-09.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-09.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2420,8 +2606,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-10
   name: syn-10.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-10.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2433,8 +2620,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-11
   name: syn-11.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-11.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2446,8 +2634,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-bad-34
   name: syn-bad-34.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-bad-34.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2459,8 +2648,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-bad-35
   name: syn-bad-35.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-bad-35.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2472,8 +2662,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-bad-36
   name: syn-bad-36.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-bad-36.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2485,8 +2676,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-bad-37
   name: syn-bad-37.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-bad-37.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2498,8 +2690,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-bad-38
   name: syn-bad-38.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-bad-38.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2511,8 +2704,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-bad-OPT-breaks-BGP
   name: syn-bad-OPT-breaks-BGP
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: "bad: re-used BNode label after OPTIONAL"
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-bad-OPT-breaks-BGP.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2524,8 +2718,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-bad-UNION-breaks-BGP
   name: syn-bad-UNION-breaks-BGP
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: "bad: re-used BNode label after UNION"
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-bad-UNION-breaks-BGP.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2537,8 +2732,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-bad-GRAPH-breaks-BGP
   name: syn-bad-GRAPH-breaks-BGP
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: "bad: re-used BNode label after GRAPH"
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-bad-GRAPH-breaks-BGP.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2550,8 +2746,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-leading-digits-in-prefixed-names
   name: syn-leading-digits-in-prefixed-names.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-leading-digits-in-prefixed-names.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2563,8 +2760,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql5/manifest#syntax-reduced-01
   name: syntax-reduced-01.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql5/syntax-reduced-01.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
@@ -2576,8 +2774,9 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql5/manifest#syntax-reduced-02
   name: syntax-reduced-02.rq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql5/syntax-reduced-02.rq
   test_data: 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved

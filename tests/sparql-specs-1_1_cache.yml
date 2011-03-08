@@ -2,6 +2,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/aggregates/manifest#agg-groupconcat-01
   name: GROUP_CONCAT 1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-1.ttl
@@ -15,6 +16,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/aggregates/manifest#agg-groupconcat-02
   name: GROUP_CONCAT 2
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-1.ttl
@@ -28,6 +30,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/aggregates/manifest#agg-groupconcat-03
   name: GROUP_CONCAT with SEPARATOR
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-1.ttl
@@ -41,6 +44,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/project-expression/manifest#projexp01
   name: Expression is equality
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp01.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp01.ttl
@@ -54,6 +58,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/project-expression/manifest#projexp02
   name: Expression raise an error
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp02.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp02.ttl
@@ -67,6 +72,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/project-expression/manifest#projexp03
   name: Reuse a project expression variable in select
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp03.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp03.ttl
@@ -80,6 +86,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/project-expression/manifest#projexp04
   name: Reuse a project expression variable in order by
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp04.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp04.ttl
@@ -93,6 +100,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/project-expression/manifest#projexp05
   name: Expression may return no value
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp05.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp05.ttl
@@ -106,6 +114,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/project-expression/manifest#projexp06
   name: Expression has undefined variable
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp06.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp06.ttl
@@ -119,6 +128,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/project-expression/manifest#projexp07
   name: Expression has variable that may be unbound
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp07.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp07.ttl
@@ -132,6 +142,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery01
   name: sq01 - Subquery within graph pattern
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq01.rq
   test_data: 
@@ -145,6 +156,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery02
   name: sq02 - Subquery within graph pattern, graph variable is bound
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq02.rq
   test_data: 
@@ -158,6 +170,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery03
   name: sq03 - Subquery within graph pattern, graph variable is not bound
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq03.rq
   test_data: 
@@ -171,6 +184,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery04
   name: sq04 - Subquery within graph pattern, default graph does not apply
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq04.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq04.rdf
@@ -184,6 +198,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery05
   name: sq05 - Subquery within graph pattern, from named applies
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq05.rq
   test_data: 
@@ -197,6 +212,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery06
   name: sq06 - Subquery with graph pattern, from named applies
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq06.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq05.rdf
@@ -210,6 +226,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery07
   name: "sq07 - Subquery with from "
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq07.rq
   test_data: 
@@ -223,6 +240,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery08
   name: sq08 - Subquery with aggregate
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq08.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq08.rdf
@@ -236,6 +254,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery09
   name: sq09 - Nested Subqueries
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq09.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq09.rdf
@@ -249,6 +268,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery10
   name: sq10 - Subquery with exists
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq10.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq10.rdf

@@ -2,6 +2,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#base-prefix-1
   name: Basic - Prefix/Base 1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/base-prefix-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-1.ttl
@@ -15,6 +16,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#base-prefix-2
   name: Basic - Prefix/Base 2
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/base-prefix-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-1.ttl
@@ -28,6 +30,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#base-prefix-3
   name: Basic - Prefix/Base 3
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/base-prefix-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-1.ttl
@@ -41,6 +44,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#base-prefix-4
   name: Basic - Prefix/Base 4
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/base-prefix-4.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-1.ttl
@@ -54,6 +58,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#base-prefix-5
   name: Basic - Prefix/Base 5
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/base-prefix-5.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-1.ttl
@@ -67,6 +72,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#list-1
   name: Basic - List 1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/list-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-2.ttl
@@ -80,6 +86,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#list-2
   name: Basic - List 2
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/list-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-2.ttl
@@ -93,6 +100,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#list-3
   name: Basic - List 3
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/list-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-2.ttl
@@ -106,6 +114,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#list-4
   name: Basic - List 4
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/list-4.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-2.ttl
@@ -119,6 +128,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#quotes-1
   name: Basic - Quotes 1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/quotes-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-3.ttl
@@ -132,6 +142,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#quotes-2
   name: Basic - Quotes 2
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/quotes-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-3.ttl
@@ -145,6 +156,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#quotes-3
   name: Basic - Quotes 3
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/quotes-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-3.ttl
@@ -158,6 +170,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#quotes-4
   name: Basic - Quotes 4
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/quotes-4.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-3.ttl
@@ -171,6 +184,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#term-1
   name: Basic - Term 1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/term-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-4.ttl
@@ -184,6 +198,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#term-2
   name: Basic - Term 2
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/term-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-4.ttl
@@ -197,6 +212,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#term-3
   name: Basic - Term 3
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/term-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-4.ttl
@@ -210,6 +226,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#term-4
   name: Basic - Term 4
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/term-4.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-4.ttl
@@ -223,6 +240,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#term-5
   name: Basic - Term 5
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/term-5.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-4.ttl
@@ -236,6 +254,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#term-6
   name: Basic - Term 6
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/term-6.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-4.ttl
@@ -249,6 +268,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#term-7
   name: Basic - Term 7
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/term-7.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-4.ttl
@@ -262,6 +282,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#term-8
   name: Basic - Term 8
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/term-8.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-4.ttl
@@ -275,6 +296,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#term-9
   name: Basic - Term 9
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/term-9.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-4.ttl
@@ -288,6 +310,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#var-1
   name: Basic - Var 1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/var-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-5.ttl
@@ -301,6 +324,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#var-2
   name: Basic - Var 2
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/var-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-5.ttl
@@ -314,6 +338,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#bgp-no-match
   name: Non-matching triple pattern
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Patterns not in data don't match
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/bgp-no-match.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-7.ttl
@@ -327,6 +352,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#spoo-1
   name: Basic graph pattern - spoo
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Test the :x :y :o1, :o2 construct
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/spoo-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-6.ttl
@@ -340,6 +366,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/basic/manifest#prefix-name-1
   name: Prefix name 1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "No local name - foo:"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/prefix-name-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/basic/data-6.ttl
@@ -353,6 +380,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/triple-match/manifest#dawg-triple-pattern-001
   name: dawg-triple-pattern-001
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Simple triple match
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/triple-match/dawg-tp-01.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/triple-match/data-01.ttl
@@ -366,6 +394,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/triple-match/manifest#dawg-triple-pattern-002
   name: dawg-triple-pattern-002
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Simple triple match
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/triple-match/dawg-tp-02.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/triple-match/data-01.ttl
@@ -379,6 +408,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/triple-match/manifest#dawg-triple-pattern-003
   name: dawg-triple-pattern-003
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Simple triple match - repeated variable
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/triple-match/dawg-tp-03.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/triple-match/data-02.ttl
@@ -392,6 +422,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/triple-match/manifest#dawg-triple-pattern-004
   name: dawg-triple-pattern-004
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Simple triple match - two triples, common variable
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/triple-match/dawg-tp-04.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/triple-match/dawg-data-01.ttl
@@ -405,6 +436,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/open-world/manifest#open-eq-01
   name: open-eq-01
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: graph match - no lexical form in data (assumes no value matching)
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/open-eq-01.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/data-1.ttl
@@ -418,6 +450,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/open-world/manifest#open-eq-02
   name: open-eq-02
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: graph match - unknown type
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/open-eq-02.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/data-1.ttl
@@ -431,6 +464,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/open-world/manifest#open-eq-03
   name: open-eq-03
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Filter(?v=1)
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/open-eq-03.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/data-1.ttl
@@ -444,6 +478,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/open-world/manifest#open-eq-04
   name: open-eq-04
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Filter(?v!=1)
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/open-eq-04.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/data-1.ttl
@@ -457,6 +492,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/open-world/manifest#open-eq-05
   name: open-eq-05
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: FILTER(?v = unknown type)
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/open-eq-05.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/data-1.ttl
@@ -470,6 +506,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/open-world/manifest#open-eq-06
   name: open-eq-06
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: FILTER(?v != unknown type)
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/open-eq-06.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/data-1.ttl
@@ -483,6 +520,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/open-world/manifest#open-eq-07
   name: open-eq-07
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Test of '=' "
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/open-eq-07.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/data-2.ttl
@@ -496,6 +534,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/open-world/manifest#open-eq-08
   name: open-eq-08
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Test of '!='
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/open-eq-08.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/data-2.ttl
@@ -509,6 +548,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/open-world/manifest#open-eq-09
   name: open-eq-09
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Test of '='
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/open-eq-09.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/data-2.ttl
@@ -522,6 +562,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/open-world/manifest#open-eq-10
   name: open-eq-10
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Test of '!='
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/open-eq-10.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/data-2.ttl
@@ -535,6 +576,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/open-world/manifest#open-eq-11
   name: open-eq-11
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: test of '=' || '!='
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/open-eq-11.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/data-2.ttl
@@ -548,6 +590,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/open-world/manifest#open-eq-12
   name: open-eq-12
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: find pairs that don't value-compare
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/open-eq-12.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/data-2.ttl
@@ -561,6 +604,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/open-world/manifest#date-2
   name: date-2
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Added type : xsd:date '!='"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/date-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/data-3.ttl
@@ -574,6 +618,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/open-world/manifest#date-3
   name: date-3
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Added type : xsd:date '>'"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/date-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/data-3.ttl
@@ -587,6 +632,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/open-world/manifest#date-4
   name: date-4
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: xsd:date ORDER BY
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/date-4.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/data-3.ttl
@@ -600,6 +646,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/open-world/manifest#open-cmp-01
   name: open-cmp-01
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Find things that compare with < or >
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/open-cmp-01.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/data-4.ttl
@@ -613,6 +660,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/open-world/manifest#open-cmp-02
   name: open-cmp-02
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Find things that compare with <= and >
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/open-cmp-02.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/open-world/data-4.ttl
@@ -626,6 +674,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/algebra/manifest#nested-opt-1
   name: Nested Optionals - 1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Nested-optionals with a shared variable that does not appear in the middle pattern (a not well-formed query pattern as per "Semantics and Complexity" of SPARQL
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/two-nested-opt.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/two-nested-opt.ttl
@@ -639,6 +688,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/algebra/manifest#nested-opt-2
   name: Nested Optionals - 2
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: OPTIONALs parse in a left-associative manner
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/two-nested-opt-alt.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/two-nested-opt.ttl
@@ -652,6 +702,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/algebra/manifest#opt-filter-1
   name: Optional-filter - 1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: A FILTER inside an OPTIONAL can reference a variable bound in the required part of the OPTIONAL
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/opt-filter-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/opt-filter-1.ttl
@@ -665,6 +716,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/algebra/manifest#opt-filter-2
   name: Optional-filter - 2 filters
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: FILTERs inside an OPTIONAL can refer to variables from both the required and optional parts of the construct.
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/opt-filter-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/opt-filter-2.ttl
@@ -678,6 +730,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/algebra/manifest#opt-filter-3
   name: Optional-filter - scope of variable
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: FILTERs in an OPTIONAL do not extend to variables bound outside of the LeftJoin(...) operation
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/opt-filter-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/opt-filter-3.ttl
@@ -691,6 +744,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/algebra/manifest#filter-place-1
   name: Filter-placement - 1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: FILTER placed after the triple pattern that contains the variable tested
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/filter-placement-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/data-2.ttl
@@ -704,6 +758,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/algebra/manifest#filter-place-2
   name: Filter-placement - 2
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: FILTERs are scoped to the nearest enclosing group - placement within that group does not matter
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/filter-placement-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/data-2.ttl
@@ -717,6 +772,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/algebra/manifest#filter-place-3
   name: Filter-placement - 3
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: FILTERs are scoped to the nearest enclosing group - placement within that group does not matter
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/filter-placement-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/data-2.ttl
@@ -730,6 +786,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/algebra/manifest#filter-nested-1
   name: Filter-nested - 1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: A FILTER is in scope for variables bound at the same level of the query tree
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/filter-nested-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/data-1.ttl
@@ -743,6 +800,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/algebra/manifest#filter-nested-2
   name: Filter-nested - 2
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: A FILTER in a group { ... } cannot see variables bound outside that group
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/filter-nested-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/data-1.ttl
@@ -756,6 +814,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/algebra/manifest#filter-scope-1
   name: Filter-scope - 1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: FILTERs in an OPTIONAL do not extend to variables bound outside of the LeftJoin(...) operation
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/filter-scope-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/data-2.ttl
@@ -769,6 +828,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/algebra/manifest#join-scope-1
   name: Join scope - 1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Variables have query scope.
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/var-scope-join-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/var-scope-join-1.ttl
@@ -782,6 +842,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/algebra/manifest#join-combo-1
   name: Join operator with OPTs, BGPs, and UNIONs
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Tests nested combination of Join with a BGP / OPT and a BGP / UNION
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/join-combo-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/join-combo-graph-2.ttl
@@ -795,6 +856,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/algebra/manifest#join-combo-2
   name: Join operator with Graph and Union
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Tests combination of Join operator with Graph on LHS and Union on RHS
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/join-combo-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/algebra/join-combo-graph-2.ttl
@@ -808,6 +870,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/bnode-coreference/manifest#dawg-bnode-coref-001
   name: dawg-bnode-coreference
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Query results must maintain bnode co-references in the dataset
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/bnode-coreference/query.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/bnode-coreference/data.ttl
@@ -821,6 +884,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/optional/manifest#dawg-optional-001
   name: One optional clause
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: One optional clause
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional/q-opt-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional/data.ttl
@@ -834,6 +898,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/optional/manifest#dawg-optional-002
   name: Two optional clauses
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: One optional clause
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional/q-opt-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional/data.ttl
@@ -847,6 +912,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/optional/manifest#dawg-union-001
   name: Union is not optional
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Union is not optional
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional/q-opt-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional/data.ttl
@@ -860,6 +926,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/optional/manifest#dawg-optional-complex-1
   name: "Complex optional semantics: 1"
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Complex optional: LeftJoin(LeftJoin(BGP(..),{..}),Join(BGP(..),Union(..,..)))"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional/q-opt-complex-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional/complex-data-1.ttl
@@ -873,6 +940,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/optional/manifest#dawg-optional-complex-2
   name: "Complex optional semantics: 2"
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Complex optional: LeftJoin(Join(BGP(..),Graph(var,{..})),Union(..,..))"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional/q-opt-complex-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional/complex-data-2.ttl
@@ -886,6 +954,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/optional/manifest#dawg-optional-complex-3
   name: "Complex optional semantics: 3"
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Complex optional: LeftJoin(Join(BGP(..),Graph(var,{..})),LeftJoin(BGP(..),{..}))"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional/q-opt-complex-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional/complex-data-2.ttl
@@ -899,6 +968,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/optional/manifest#dawg-optional-complex-4
   name: "Complex optional semantics: 4"
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Complex optional: LeftJoin(Join(BGP(..),Union(..,..)),Join(BGP(..),Graph(varOrIRI,{..})))"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional/q-opt-complex-4.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional/complex-data-2.ttl
@@ -912,6 +982,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/optional-filter/manifest#dawg-optional-filter-001
   name: OPTIONAL-FILTER
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: FILTER inside an OPTIONAL does not block an entire solution
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional-filter/expr-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional-filter/data-1.ttl
@@ -925,6 +996,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/optional-filter/manifest#dawg-optional-filter-002
   name: OPTIONAL - Outer FILTER
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: FILTER outside an OPTIONAL tests bound and unbound variables
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional-filter/expr-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional-filter/data-1.ttl
@@ -938,6 +1010,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/optional-filter/manifest#dawg-optional-filter-003
   name: OPTIONAL - Outer FILTER with BOUND
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Use !bound to only run outer FILTERs against variables bound in an OPTIONAL
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional-filter/expr-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional-filter/data-1.ttl
@@ -951,6 +1024,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/optional-filter/manifest#dawg-optional-filter-004
   name: OPTIONAL - Inner FILTER with negative EBV for outer variables
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: FILTER inside an OPTIONAL does not corrupt the entire solution
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional-filter/expr-4.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/optional-filter/data-1.ttl
@@ -964,6 +1038,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/graph/manifest#dawg-graph-01
   name: graph-01
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: default graph / Query: default graph"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/graph-01.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/data-g1.ttl
@@ -977,6 +1052,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/graph/manifest#dawg-graph-02
   name: graph-02
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: named graph / Query: default graph"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/graph-02.rq
   test_data: 
@@ -990,6 +1066,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/graph/manifest#dawg-graph-03
   name: graph-03
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: named graph / Query: named graph graph"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/graph-03.rq
   test_data: 
@@ -1003,6 +1080,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/graph/manifest#dawg-graph-04
   name: graph-04
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: named graph / Query: default graph"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/graph-04.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/data-g1.ttl
@@ -1016,6 +1094,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/graph/manifest#dawg-graph-05
   name: graph-05
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: default and named / Query: default graph"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/graph-05.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/data-g1.ttl
@@ -1029,6 +1108,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/graph/manifest#dawg-graph-06
   name: graph-06
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: default and named / Query: named graph"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/graph-06.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/data-g1.ttl
@@ -1042,6 +1122,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/graph/manifest#dawg-graph-07
   name: graph-07
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: default and named / Query: all data by UNION"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/graph-07.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/data-g1.ttl
@@ -1055,6 +1136,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/graph/manifest#dawg-graph-08
   name: graph-08
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: default and named / Query: common subjects"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/graph-08.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/data-g1.ttl
@@ -1068,6 +1150,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/graph/manifest#dawg-graph-09
   name: graph-09
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: default and named (bnodes) / Query: common subjects"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/graph-09.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/data-g3.ttl
@@ -1081,6 +1164,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/graph/manifest#dawg-graph-10b
   name: graph-10b
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: default and named (same data, with bnodes) / Query: common subjects"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/graph-10.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/data-g3.ttl
@@ -1094,6 +1178,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/graph/manifest#dawg-graph-11
   name: graph-11
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: default and named (several) / Query: get everything"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/graph-11.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/graph/data-g1.ttl
@@ -1107,6 +1192,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/dataset/manifest#dawg-dataset-01
   name: dataset-01
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: default dataset / Query: default dataset"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/dataset/dataset-01.rq
   test_data: 
@@ -1120,6 +1206,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/dataset/manifest#dawg-dataset-02
   name: dataset-02
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: named dataset / Query: default dataset"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/dataset/dataset-02.rq
   test_data: 
@@ -1133,6 +1220,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/dataset/manifest#dawg-dataset-03
   name: dataset-03
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: named dataset / Query: named dataset dataset"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/dataset/dataset-03.rq
   test_data: 
@@ -1146,6 +1234,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/dataset/manifest#dawg-dataset-04
   name: dataset-04
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: named dataset / Query: default dataset"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/dataset/dataset-04.rq
   test_data: 
@@ -1159,6 +1248,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/dataset/manifest#dawg-dataset-05
   name: dataset-05
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: default and named / Query: default dataset"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/dataset/dataset-05.rq
   test_data: 
@@ -1172,6 +1262,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/dataset/manifest#dawg-dataset-06
   name: dataset-06
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: default and named / Query: named dataset"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/dataset/dataset-06.rq
   test_data: 
@@ -1185,6 +1276,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/dataset/manifest#dawg-dataset-07
   name: dataset-07
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: default and named / Query: all data by UNION"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/dataset/dataset-07.rq
   test_data: 
@@ -1198,6 +1290,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/dataset/manifest#dawg-dataset-08
   name: dataset-08
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: default and named / Query: common subjects"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/dataset/dataset-08.rq
   test_data: 
@@ -1211,6 +1304,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/dataset/manifest#dawg-dataset-11
   name: dataset-11
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: default and named (several) / Query: get everything"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/dataset/dataset-11.rq
   test_data: 
@@ -1224,6 +1318,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/dataset/manifest#dawg-dataset-09b
   name: dataset-09b
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: default and named (bnodes) / Query: common subjects"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/dataset/dataset-09b.rq
   test_data: 
@@ -1237,6 +1332,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/dataset/manifest#dawg-dataset-10b
   name: dataset-10b
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: default and named (same data, with bnodes) / Query: common subjects"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/dataset/dataset-10b.rq
   test_data: 
@@ -1250,6 +1346,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/dataset/manifest#dawg-dataset-12b
   name: dataset-12b
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Data: default (several) and named (several) / Query: get everything"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/dataset/dataset-12b.rq
   test_data: 
@@ -1263,6 +1360,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-01
   name: tP-double-double
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-double-double.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1276,6 +1374,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-02
   name: tP-double-float
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-double-float.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1289,6 +1388,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-03
   name: tP-double-decimal
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-double-decimal.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1302,6 +1402,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-04
   name: tP-float-float
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-float-float.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1315,6 +1416,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-05
   name: tP-float-decimal
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-float-decimal.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1328,6 +1430,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-06
   name: tP-decimal-decimal
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-decimal-decimal.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1341,6 +1444,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-07
   name: tP-integer-short
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-integer-short.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1354,6 +1458,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-08
   name: tP-nonPositiveInteger-short
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-nonPositiveInteger-short.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1367,6 +1472,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-09
   name: tP-negativeInteger-short
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-negativeInteger-short.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1380,6 +1486,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-10
   name: tP-long-short
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-long-short.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1393,6 +1500,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-11
   name: tP-int-short
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-int-short.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1406,6 +1514,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-12
   name: tP-short-short
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-short-short.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1419,6 +1528,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-13
   name: tP-byte-short
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-byte-short.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1432,6 +1542,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-14
   name: tP-nonNegativeInteger-short
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-nonNegativeInteger-short.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1445,6 +1556,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-15
   name: tP-unsignedLong-short
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-unsignedLong-short.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1458,6 +1570,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-16
   name: tP-unsignedInt-short
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-unsignedInt-short.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1471,6 +1584,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-17
   name: tP-unsignedShort-short
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-unsignedShort-short.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1484,6 +1598,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-18
   name: tP-unsignedByte-short
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-unsignedByte-short.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1497,6 +1612,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-19
   name: tP-positiveInteger-short
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-positiveInteger-short.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1510,6 +1626,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-20
   name: tP-short-double
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-short-double.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1523,6 +1640,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-21
   name: tP-short-float
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-short-float.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1536,6 +1654,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-22
   name: tP-short-decimal
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-short-decimal.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1549,6 +1668,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-23
   name: tP-short-short-fail
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-short-short-fail.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1562,6 +1682,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-24
   name: tP-byte-short-fail
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-byte-short-fail.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1575,6 +1696,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-25
   name: tP-short-long-fail
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-short-long-fail.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1588,6 +1710,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-26
   name: tP-short-int-fail
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-short-int-fail.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1601,6 +1724,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-27
   name: tP-short-byte-fail
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-short-byte-fail.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1614,6 +1738,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-28
   name: tP-double-float-fail
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-double-float-fail.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1627,6 +1752,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-29
   name: tP-double-decimal-fail
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-double-decimal-fail.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1640,6 +1766,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/type-promotion/manifest#type-promotion-30
   name: tP-float-decimal-fail
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "Positive test: product of type promotion within the xsd:decimal type tree."
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP-float-decimal-fail.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/type-promotion/tP.ttl
@@ -1653,6 +1780,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/cast/manifest#cast-str
   name: Cast to xsd:string
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/cast/cast-str.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/cast/data.ttl
@@ -1666,6 +1794,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/cast/manifest#cast-flt
   name: Cast to xsd:float
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/cast/cast-flt.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/cast/data.ttl
@@ -1679,6 +1808,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/cast/manifest#cast-dbl
   name: Cast to xsd:double
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/cast/cast-dbl.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/cast/data.ttl
@@ -1692,6 +1822,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/cast/manifest#cast-dec
   name: Cast to xsd:decimal
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/cast/cast-dec.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/cast/data.ttl
@@ -1705,6 +1836,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/cast/manifest#cast-int
   name: Cast to xsd:integer
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/cast/cast-int.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/cast/data.ttl
@@ -1718,6 +1850,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/cast/manifest#cast-dT
   name: Cast to xsd:dateTime
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/cast/cast-dT.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/cast/data.ttl
@@ -1731,6 +1864,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/cast/manifest#cast-bool
   name: Cast to xsd:boolean
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/cast/cast-bool.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/cast/data.ttl
@@ -1744,6 +1878,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/boolean-effective-value/manifest#dawg-boolean-literal
   name: Test literal 'true'
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/boolean-effective-value/query-boolean-literal.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/boolean-effective-value/data-1.ttl
@@ -1757,6 +1892,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/boolean-effective-value/manifest#dawg-bev-1
   name: Test 'boolean effective value' - true
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Non-zero numerics, non-empty strings, and the true boolean have an EBV of true
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/boolean-effective-value/query-bev-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/boolean-effective-value/data-1.ttl
@@ -1770,6 +1906,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/boolean-effective-value/manifest#dawg-bev-2
   name: Test 'boolean effective value' - false
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Zero-valued numerics, the empty string, and the false boolean have an EBV of false
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/boolean-effective-value/query-bev-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/boolean-effective-value/data-1.ttl
@@ -1783,6 +1920,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/boolean-effective-value/manifest#dawg-bev-3
   name: Test 'boolean effective value' - &&
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: The && operator takes the EBV of its operands
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/boolean-effective-value/query-bev-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/boolean-effective-value/data-1.ttl
@@ -1796,6 +1934,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/boolean-effective-value/manifest#dawg-bev-4
   name: Test 'boolean effective value' - ||
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: The || operator takes the EBV of its operands
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/boolean-effective-value/query-bev-4.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/boolean-effective-value/data-1.ttl
@@ -1809,6 +1948,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/boolean-effective-value/manifest#dawg-bev-5
   name: Test 'boolean effective value' - optional
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: The EBV of an unbound value  or a literal with an unknown datatype is a type error, which eliminates the solution in question
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/boolean-effective-value/query-bev-5.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/boolean-effective-value/data-2.ttl
@@ -1822,6 +1962,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/boolean-effective-value/manifest#dawg-bev-6
   name: Test 'boolean effective value' - unknown types
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Negating a type error is still a type error
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/boolean-effective-value/query-bev-6.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/boolean-effective-value/data-2.ttl
@@ -1835,6 +1976,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/bound/manifest#dawg-bound-query-001
   name: dawg-bound-query-001
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: BOUND test case.
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/bound/bound1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/bound/data.ttl
@@ -1848,6 +1990,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#dawg-str-1
   name: str-1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/q-str-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-builtin-1.ttl
@@ -1861,6 +2004,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#dawg-str-2
   name: str-2
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/q-str-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-builtin-1.ttl
@@ -1874,6 +2018,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#dawg-str-3
   name: str-3
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/q-str-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-builtin-1.ttl
@@ -1887,6 +2032,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#dawg-str-4
   name: str-4
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/q-str-4.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-builtin-1.ttl
@@ -1900,6 +2046,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#dawg-isBlank-1
   name: isBlank-1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/q-blank-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-builtin-1.ttl
@@ -1913,6 +2060,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#dawg-isLiteral-1
   name: isLiteral
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/q-isliteral-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-builtin-2.ttl
@@ -1926,6 +2074,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#dawg-datatype-1
   name: datatype-1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/q-datatype-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-builtin-1.ttl
@@ -1939,6 +2088,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#dawg-datatype-2
   name: "datatype-2 : Literals with a datatype"
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "updated from original test case: eliminated ordering from test"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/q-datatype-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-builtin-2.ttl
@@ -1952,6 +2102,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#dawg-datatype-3
   name: "datatype-3 : Literals with a datatype of xsd:string"
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "updated from original test case: eliminated ordering from test"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/q-datatype-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-builtin-2.ttl
@@ -1965,6 +2116,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#dawg-lang-1
   name: "lang-1 : Literals with a lang tag of some kind"
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "updated from original test case: eliminated ordering from test"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/q-lang-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-builtin-2.ttl
@@ -1978,6 +2130,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#dawg-lang-2
   name: "lang-2 : Literals with a lang tag of ''"
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "updated from original test case: eliminated ordering from test"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/q-lang-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-builtin-2.ttl
@@ -1991,6 +2144,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#dawg-lang-3
   name: "lang-3 : Graph matching with lang tag being a different case"
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "updated from original test case: eliminated ordering from test"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/q-lang-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-builtin-2.ttl
@@ -2004,6 +2158,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#dawg-isURI-1
   name: isURI-1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/q-uri-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-builtin-1.ttl
@@ -2017,6 +2172,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#dawg-isIRI-1
   name: isIRI-1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/q-iri-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-builtin-1.ttl
@@ -2030,6 +2186,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#dawg-langMatches-1
   name: LangMatches-1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: langMatches(lang(?v), 'en-GB') matches 'abc'@en-gb
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/q-langMatches-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-langMatches.ttl
@@ -2043,6 +2200,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#dawg-langMatches-2
   name: LangMatches-2
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: langMatches(lang(?v), 'en') matches 'abc'@en, 'abc'@en-gb
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/q-langMatches-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-langMatches.ttl
@@ -2056,6 +2214,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#dawg-langMatches-3
   name: LangMatches-3
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: langMatches(lang(?v), '*') matches 'abc'@en, 'abc'@en-gb, 'abc'@fr
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/q-langMatches-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-langMatches.ttl
@@ -2069,6 +2228,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#dawg-langMatches-4
   name: LangMatches-4
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "! langMatches(lang(?v), '*') matches 'abc'"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/q-langMatches-4.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-langMatches.ttl
@@ -2082,6 +2242,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#dawg-langMatches-basic
   name: LangMatches-basic
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: the basic range 'de-de' does not match 'de-Latn-de'
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/q-langMatches-de-de.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-langMatches-de.ttl
@@ -2095,6 +2256,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#lang-case-insensitive-eq
   name: lang-case-insensitive-eq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "'xyz'@en = 'xyz'@EN"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/lang-case-sensitivity-eq.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/lang-case-sensitivity.ttl
@@ -2108,6 +2270,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#lang-case-insensitive-ne
   name: lang-case-insensitive-ne
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "'xyz'@en != 'xyz'@EN"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/lang-case-sensitivity-ne.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/lang-case-sensitivity.ttl
@@ -2121,6 +2284,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#sameTerm-simple
   name: sameTerm-simple
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: sameTerm(?v1, ?v2)
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/sameTerm.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-builtin-1.ttl
@@ -2134,6 +2298,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#sameTerm-eq
   name: sameTerm-eq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: sameTerm(?v1, ?v2) && ?v1 = ?v2
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/sameTerm-eq.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-builtin-1.ttl
@@ -2147,6 +2312,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-builtin/manifest#sameTerm-not-eq
   name: sameTerm-not-eq
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "!sameTerm(?v1, ?v2) && ?v1 = ?v2"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/sameTerm-not-eq.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-builtin/data-builtin-1.ttl
@@ -2160,6 +2326,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-ops/manifest#ge-1
   name: Greater-than or equals
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: ">= in FILTER expressions"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-ops/query-ge-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-ops/data.ttl
@@ -2173,6 +2340,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-ops/manifest#le-1
   name: Less-than or equals
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: <= in FILTER expressions
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-ops/query-le-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-ops/data.ttl
@@ -2186,6 +2354,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-ops/manifest#mul-1
   name: Multiplication
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: A * B in FILTER expressions
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-ops/query-mul-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-ops/data.ttl
@@ -2199,6 +2368,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-ops/manifest#plus-1
   name: Addition
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: A + B in FILTER expressions
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-ops/query-plus-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-ops/data.ttl
@@ -2212,6 +2382,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-ops/manifest#minus-1
   name: Subtraction
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: A - B in FILTER expressions
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-ops/query-minus-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-ops/data.ttl
@@ -2225,6 +2396,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-ops/manifest#unplus-1
   name: Unary Plusn
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: +A in FILTER expressions
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-ops/query-unplus-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-ops/data.ttl
@@ -2238,6 +2410,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-ops/manifest#unminus-1
   name: Unary Minus
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: -A in FILTER expressions
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-ops/query-unminus-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-ops/data.ttl
@@ -2251,6 +2424,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-equals/manifest#eq-1
   name: Equality 1-1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: = in FILTER expressions is value equality
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/query-eq-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/data-eq.ttl
@@ -2264,6 +2438,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-equals/manifest#eq-2
   name: Equality 1-2
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: = in FILTER expressions is value equality
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/query-eq-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/data-eq.ttl
@@ -2277,6 +2452,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-equals/manifest#eq-3
   name: Equality 1-3
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Numerics are not value-equivalent to plain literals
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/query-eq-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/data-eq.ttl
@@ -2290,6 +2466,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-equals/manifest#eq-4
   name: Equality 1-4
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: = compares plain literals and unknown types with the same lexical form as false
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/query-eq-4.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/data-eq.ttl
@@ -2303,6 +2480,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-equals/manifest#eq-5
   name: Equality 1-5
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: = on IRI terms
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/query-eq-5.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/data-eq.ttl
@@ -2316,6 +2494,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-equals/manifest#eq-2-1
   name: Equality - 2 var - test equals
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: = in FILTER is value equality
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/query-eq2-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/data-eq.ttl
@@ -2329,6 +2508,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-equals/manifest#eq-2-2
   name: "Equality - 2 var - test not equals "
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: "!= in FILTER is value inequality"
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/query-eq2-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/data-eq.ttl
@@ -2342,6 +2522,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-equals/manifest#eq-graph-1
   name: Equality 1-1 -- graph
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Graph pattern matching matches exact terms, not values
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/query-eq-graph-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/data-eq.ttl
@@ -2355,6 +2536,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-equals/manifest#eq-graph-2
   name: Equality 1-2 -- graph
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Graph pattern matching matches exact terms, not values
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/query-eq-graph-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/data-eq.ttl
@@ -2368,6 +2550,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-equals/manifest#eq-graph-3
   name: Equality 1-3 -- graph
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Graph pattern matching matches exact terms, not values
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/query-eq-graph-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/data-eq.ttl
@@ -2381,6 +2564,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-equals/manifest#eq-graph-4
   name: Equality 1-4 -- graph
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Graph pattern matching matches exact terms, not values
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/query-eq-graph-4.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/data-eq.ttl
@@ -2394,6 +2578,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/expr-equals/manifest#eq-graph-5
   name: Equality 1-5 -- graph
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Graph pattern matching matches exact terms, not values
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/query-eq-graph-5.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/expr-equals/data-eq.ttl
@@ -2407,6 +2592,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/regex/manifest#dawg-regex-001
   name: regex-query-001
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Simple unanchored match test
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/regex/regex-query-001.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/regex/regex-data-01.ttl
@@ -2420,6 +2606,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/regex/manifest#dawg-regex-002
   name: regex-query-002
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Case insensitive unanchored match test
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/regex/regex-query-002.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/regex/regex-data-01.ttl
@@ -2433,6 +2620,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/regex/manifest#dawg-regex-003
   name: regex-query-003
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Use/mention test
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/regex/regex-query-003.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/regex/regex-data-01.ttl
@@ -2446,6 +2634,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/regex/manifest#dawg-regex-004
   name: regex-query-004
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: str()+URI test
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/regex/regex-query-004.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/regex/regex-data-01.ttl
@@ -2459,6 +2648,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/i18n/manifest#kanji-1
   name: kanji-01
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/i18n/kanji-01.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/i18n/kanji.ttl
@@ -2472,6 +2662,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/i18n/manifest#kanji-2
   name: kanji-02
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/i18n/kanji-02.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/i18n/kanji.ttl
@@ -2485,6 +2676,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/i18n/manifest#normalization-1
   name: normalization-01
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/i18n/normalization-01.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/i18n/normalization-01.ttl
@@ -2498,6 +2690,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/i18n/manifest#normalization-2
   name: normalization-02
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Example 1 from http://lists.w3.org/Archives/Public/public-rdf-dawg/2005JulSep/0096
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/i18n/normalization-02.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/i18n/normalization-02.ttl
@@ -2511,6 +2704,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/i18n/manifest#normalization-3
   name: normalization-03
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Example 2 from http://lists.w3.org/Archives/Public/public-rdf-dawg/2005JulSep/0096
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/i18n/normalization-03.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/i18n/normalization-03.ttl
@@ -2524,6 +2718,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/construct/manifest#construct-1
   name: dawg-construct-identity
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Graph equivalent result graph
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/construct/query-ident.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/construct/data-ident.ttl
@@ -2537,6 +2732,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/construct/manifest#construct-2
   name: dawg-construct-subgraph
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Result subgraph of original graph
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/construct/query-subgraph.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/construct/data-ident.ttl
@@ -2550,6 +2746,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/construct/manifest#construct-3
   name: dawg-construct-reification-1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Reification of the default graph
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/construct/query-reif-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/construct/data-reif.ttl
@@ -2563,6 +2760,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/construct/manifest#construct-4
   name: dawg-construct-reification-2
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Reification of the default graph
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/construct/query-reif-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/construct/data-reif.ttl
@@ -2576,6 +2774,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/construct/manifest#construct-5
   name: dawg-construct-optional
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Reification of the default graph
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/construct/query-construct-optional.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/construct/data-opt.ttl
@@ -2589,6 +2788,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/ask/manifest#ask-1
   name: ASK-1 (SPARQL XML results)
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/ask/ask-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/ask/data.ttl
@@ -2602,6 +2802,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/ask/manifest#ask-4
   name: ASK-4 (SPARQL XML results)
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/ask/ask-4.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/ask/data.ttl
@@ -2615,6 +2816,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/ask/manifest#ask-7
   name: ASK-7 (SPARQL XML results)
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/ask/ask-7.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/ask/data.ttl
@@ -2628,6 +2830,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/ask/manifest#ask-8
   name: ASK-8 (SPARQL XML results)
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/ask/ask-8.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/ask/data.ttl
@@ -2641,6 +2844,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/distinct/manifest#no-distinct-1
   name: "Numbers: No distinct"
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/no-distinct-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/data-num.ttl
@@ -2654,6 +2858,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/distinct/manifest#distinct-1
   name: "Numbers: Distinct"
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/distinct-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/data-num.ttl
@@ -2667,6 +2872,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/distinct/manifest#no-distinct-2
   name: "Strings: No distinct"
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/no-distinct-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/data-str.ttl
@@ -2680,6 +2886,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/distinct/manifest#distinct-2
   name: "Strings: Distinct"
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/distinct-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/data-str.ttl
@@ -2693,6 +2900,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/distinct/manifest#no-distinct-3
   name: "Nodes: No distinct"
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/no-distinct-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/data-node.ttl
@@ -2706,6 +2914,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/distinct/manifest#distinct-3
   name: "Nodes: Distinct"
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/distinct-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/data-node.ttl
@@ -2719,6 +2928,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/distinct/manifest#no-distinct-4
   name: "Opt: No distinct"
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/no-distinct-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/data-opt.ttl
@@ -2732,6 +2942,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/distinct/manifest#distinct-4
   name: "Opt: Distinct"
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/distinct-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/data-opt.ttl
@@ -2745,6 +2956,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/distinct/manifest#no-distinct-9
   name: "All: No distinct"
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/no-distinct-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/data-all.ttl
@@ -2758,6 +2970,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/distinct/manifest#distinct-9
   name: "All: Distinct"
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/distinct-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/data-all.ttl
@@ -2771,6 +2984,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/distinct/manifest#distinct-star-1
   name: SELECT DISTINCT *
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/distinct-star-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/distinct/data-star.ttl
@@ -2784,6 +2998,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/sort/manifest#dawg-sort-1
   name: sort-1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Alphabetic sort (ascending) on untyped literals
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/query-sort-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/data-sort-1.ttl
@@ -2797,6 +3012,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/sort/manifest#dawg-sort-2
   name: sort-2
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Alphabetic sort (descending) on untyped literals
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/query-sort-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/data-sort-1.ttl
@@ -2810,6 +3026,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/sort/manifest#dawg-sort-3
   name: sort-3
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Sort on (possibly unbound) URIs
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/query-sort-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/data-sort-3.ttl
@@ -2823,6 +3040,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/sort/manifest#dawg-sort-4
   name: sort-4
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Sort on datatyped (integer) literals
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/query-sort-4.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/data-sort-4.ttl
@@ -2836,6 +3054,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/sort/manifest#dawg-sort-5
   name: sort-5
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Sort first on untyped literals (ascending), then on datatyped (integer) literals (descending
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/query-sort-5.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/data-sort-4.ttl
@@ -2849,6 +3068,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/sort/manifest#dawg-sort-6
   name: sort-6
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Sort on mixed result of uris and literals.
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/query-sort-6.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/data-sort-6.ttl
@@ -2862,6 +3082,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/sort/manifest#dawg-sort-7
   name: sort-7
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Sort on comparable mixed typed literals (integer and float)
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/query-sort-4.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/data-sort-7.ttl
@@ -2875,6 +3096,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/sort/manifest#dawg-sort-8
   name: sort-8
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Sort on several mixed values (bnode, uri, literal)
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/query-sort-4.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/data-sort-8.ttl
@@ -2888,6 +3110,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/sort/manifest#dawg-sort-9
   name: sort-9
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Alphabetic sort (ascending) on datatyped (string) literals
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/query-sort-9.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/data-sort-9.ttl
@@ -2901,6 +3124,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/sort/manifest#dawg-sort-10
   name: sort-10
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Alphabetic sort (descending) on datatyped (string) literals
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/query-sort-10.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/data-sort-9.ttl
@@ -2914,6 +3138,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/sort/manifest#dawg-sort-numbers
   name: Expression sort
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Sort by a bracketted expression
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/query-sort-numbers.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/data-sort-numbers.ttl
@@ -2927,6 +3152,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/sort/manifest#dawg-sort-builtin
   name: Builtin sort
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Sort by a builtin operator
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/query-sort-builtin.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/data-sort-builtin.ttl
@@ -2940,6 +3166,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/sort/manifest#dawg-sort-function
   name: Function sort
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: Sort by function invocation
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/query-sort-function.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/sort/data-sort-function.ttl
@@ -2953,6 +3180,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/solution-seq/manifest#limit-1
   name: Limit 1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/slice-01.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/data.ttl
@@ -2966,6 +3194,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/solution-seq/manifest#limit-2
   name: Limit 2
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/slice-02.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/data.ttl
@@ -2979,6 +3208,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/solution-seq/manifest#limit-3
   name: Limit 3
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/slice-03.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/data.ttl
@@ -2992,6 +3222,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/solution-seq/manifest#limit-4
   name: Limit 4
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/slice-04.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/data.ttl
@@ -3005,6 +3236,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/solution-seq/manifest#offset-1
   name: Offset 1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/slice-10.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/data.ttl
@@ -3018,6 +3250,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/solution-seq/manifest#offset-2
   name: Offset 2
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/slice-11.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/data.ttl
@@ -3031,6 +3264,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/solution-seq/manifest#offset-3
   name: Offset 3
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/slice-12.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/data.ttl
@@ -3044,6 +3278,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/solution-seq/manifest#offset-4
   name: Offset 4
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/slice-13.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/data.ttl
@@ -3057,6 +3292,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/solution-seq/manifest#slice-1
   name: Slice 1
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/slice-20.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/data.ttl
@@ -3070,6 +3306,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/solution-seq/manifest#slice-2
   name: Slice 2
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/slice-21.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/data.ttl
@@ -3083,6 +3320,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/solution-seq/manifest#slice-3
   name: Slice 3
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/slice-22.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/data.ttl
@@ -3096,6 +3334,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/solution-seq/manifest#slice-4
   name: Slice 4
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/slice-23.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/data.ttl
@@ -3109,6 +3348,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/solution-seq/manifest#slice-5
   name: Slice 5
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/slice-24.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/solution-seq/data.ttl
@@ -3122,6 +3362,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/reduced/manifest#reduced-1
   name: SELECT REDUCED *
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/reduced/reduced-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/reduced/reduced-star.ttl
@@ -3135,6 +3376,7 @@
 - !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
   subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/reduced/manifest#reduced-2
   name: SELECT REDUCED ?x with strings
+  type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#QueryEvaluationTest
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/reduced/reduced-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/data-r2/reduced/reduced-str.ttl
