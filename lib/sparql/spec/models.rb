@@ -35,20 +35,6 @@ module SPARQL::Spec
   end
 
   class SPARQLTest < Spira::Base
-    Struct.new("MF_Action", :query_file, :data, :graphData) do
-      def query_string
-        IO.read(query_file.path)
-      end
-
-      def sse_file
-        RDF::URI(query_file.to_s.sub(/.rq$/, ".sse"))
-      end
-
-      def sse_string
-        IO.read(sse_file.path)
-      end
-    end
-
     property :name, :predicate => MF.name
     property :comment, :predicate => RDFS.comment
     property :_action_indr, :predicate => MF.action, :type => 'SPARQLAction'
@@ -60,11 +46,46 @@ module SPARQL::Spec
 
     has_many :tags, :predicate => MF.tag
 
-    # For Syntax tests, mf:action is a simple URI, otherwise, is a SPARQLAction
-    def action
-      @action ||= _action_resource.node? ? _action_indr : Struct::MF_Action.new(_action_resource)
+    # Support for simplified YAML representation
+    def for_yaml
+      SPARQLTestYAML.new(
+        subject.to_s,
+        name,
+        comment,
+        (action.query_file ? action.query_file.to_s : nil),
+        (action.test_data ? action.test_data.to_s : nil),
+        (result ? result.to_s : nil),
+        (approval ? approval.to_s : nil),
+        (approved_by ? approved_by.to_s : nil),
+        (manifest ? manifest.to_s : nil),
+        tags)
     end
     
+    # For Syntax tests, mf:action is a simple URI, otherwise, is a SPARQLAction
+    def action
+      @action ||= if _action_indr.is_a?(RDF::URI)
+        SPARQLAction.new {|a| a.query_file = _action_resource }
+      else
+        _action_indr
+      end
+    end
+    
+    def action=(act)
+      @action = act
+    end
+    
+    def inspect
+      "[#{self.class.to_s} " + %w(
+        subject
+        name
+        result
+        approved?
+      ).map {|a| v = self.send(a); "#{a}='#{v}'" if v}.compact.join(", ") +
+      ", query_file=#{action.query_file}" + 
+      (action.test_data ? ", test_data=#{action.test_data}" : "") + 
+      "]"
+    end
+
     def approved?
       approval == DAWG.Approved
     end
@@ -84,6 +105,26 @@ module SPARQL::Spec
         end
       else
         raise "Couldn't determine query type for #{File.basename(subject)} (reading #{action.query_file})"
+      end
+    end
+  end
+
+  SPARQLTestYAML = Struct.new(:subject, :name, :comment, :query_file, :test_data, :result, :approval, :approved_by, :manifest, :tags) do
+    def to_test
+      puts "generate test from #{inspect}"
+      SPARQLTest.new do |test|
+        #test.subject = RDF::URI(subject)
+        test.name = name
+        test.comment = comment
+        test.action = SPARQLAction.new do |a|
+          a.query_file = RDF::URI(query_file)
+          a.test_data = RDF::URI(test_data) if test_data
+        end
+        test.result = result
+        test.approval = RDF::URI(approval) if approval
+        test.approved_by = RDF::URI(approved_by) if approved_by
+        test.manifest = RDF::URI(manifest) if manifest
+        test.tags = tags
       end
     end
   end
