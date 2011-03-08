@@ -1,0 +1,2588 @@
+--- 
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-basic-01
+  name: syntax-basic-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-basic-02
+  name: syntax-basic-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-basic-03
+  name: syntax-basic-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-basic-04
+  name: syntax-basic-04.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-basic-05
+  name: syntax-basic-05.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-basic-06
+  name: syntax-basic-06.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-qname-01
+  name: syntax-qname-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-qname-02
+  name: syntax-qname-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-qname-03
+  name: syntax-qname-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-qname-04
+  name: syntax-qname-04.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-qname-05
+  name: syntax-qname-05.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-qname-06
+  name: syntax-qname-06.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-qname-07
+  name: syntax-qname-07.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-qname-08
+  name: syntax-qname-08.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-01
+  name: syntax-lit-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-02
+  name: syntax-lit-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-03
+  name: syntax-lit-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-04
+  name: syntax-lit-04.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-05
+  name: syntax-lit-05.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-06
+  name: syntax-lit-06.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-07
+  name: syntax-lit-07.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-08
+  name: syntax-lit-08.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-09
+  name: syntax-lit-09.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-10
+  name: syntax-lit-10.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-11
+  name: syntax-lit-11.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-12
+  name: syntax-lit-12.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-13
+  name: syntax-lit-13.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-14
+  name: syntax-lit-14.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-15
+  name: syntax-lit-15.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-16
+  name: syntax-lit-16.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-17
+  name: syntax-lit-17.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-18
+  name: syntax-lit-18.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-19
+  name: syntax-lit-19.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lit-20
+  name: syntax-lit-20.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-01
+  name: syntax-struct-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-02
+  name: syntax-struct-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-03
+  name: syntax-struct-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-05
+  name: syntax-struct-05.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-06
+  name: syntax-struct-06.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-07
+  name: syntax-struct-07.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-08
+  name: syntax-struct-08.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-09
+  name: syntax-struct-09.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-10
+  name: syntax-struct-10.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-11
+  name: syntax-struct-11.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-12
+  name: syntax-struct-12.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-13
+  name: syntax-struct-13.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-struct-14
+  name: syntax-struct-14.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lists-01
+  name: syntax-lists-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lists-02
+  name: syntax-lists-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lists-03
+  name: syntax-lists-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lists-04
+  name: syntax-lists-04.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-lists-05
+  name: syntax-lists-05.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-bnodes-01
+  name: syntax-bnodes-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-bnodes-02
+  name: syntax-bnodes-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-bnodes-03
+  name: syntax-bnodes-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-bnodes-04
+  name: syntax-bnodes-04.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-bnodes-05
+  name: syntax-bnodes-05.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-forms-01
+  name: syntax-forms-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-forms-02
+  name: syntax-forms-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-union-01
+  name: syntax-union-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-union-02
+  name: syntax-union-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-expr-01
+  name: syntax-expr-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-expr-02
+  name: syntax-expr-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-expr-03
+  name: syntax-expr-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-expr-04
+  name: syntax-expr-04.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-expr-05
+  name: syntax-expr-05.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-order-01
+  name: syntax-order-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-order-02
+  name: syntax-order-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-order-03
+  name: syntax-order-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-order-04
+  name: syntax-order-04.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-order-05
+  name: syntax-order-05.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-order-06
+  name: syntax-order-06.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-order-07
+  name: syntax-order-07.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-limit-offset-01
+  name: syntax-limit-offset-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-limit-offset-02
+  name: syntax-limit-offset-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-limit-offset-03
+  name: syntax-limit-offset-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-limit-offset-04
+  name: syntax-limit-offset-04.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-pat-01
+  name: syntax-pat-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JulSep/att-0118/04-dawg-minutes.html
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-pat-02
+  name: syntax-pat-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JulSep/att-0118/04-dawg-minutes.html
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-pat-03
+  name: syntax-pat-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JulSep/att-0118/04-dawg-minutes.html
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql1/manifest#syntax-pat-04
+  name: syntax-pat-04.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JulSep/att-0118/04-dawg-minutes.html
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-01
+  name: syntax-general-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-02
+  name: syntax-general-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-03
+  name: syntax-general-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-04
+  name: syntax-general-04.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-05
+  name: syntax-general-05.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-06
+  name: syntax-general-06.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-07
+  name: syntax-general-07.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-08
+  name: syntax-general-08.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-09
+  name: syntax-general-09.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-10
+  name: syntax-general-10.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-11
+  name: syntax-general-11.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-12
+  name: syntax-general-12.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-13
+  name: syntax-general-13.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-general-14
+  name: syntax-general-14.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-keywords-01
+  name: syntax-keywords-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-keywords-02
+  name: syntax-keywords-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-keywords-03
+  name: syntax-keywords-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-lists-01
+  name: syntax-lists-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-lists-02
+  name: syntax-lists-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-lists-03
+  name: syntax-lists-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-lists-04
+  name: syntax-lists-04.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-lists-05
+  name: syntax-lists-05.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-bnode-01
+  name: syntax-bnode-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-bnode-02
+  name: syntax-bnode-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-bnode-03
+  name: syntax-bnode-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-function-01
+  name: syntax-function-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-function-02
+  name: syntax-function-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-function-03
+  name: syntax-function-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-function-04
+  name: syntax-function-04.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-select-01
+  name: syntax-form-select-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-select-02
+  name: syntax-form-select-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-ask-02
+  name: syntax-form-ask-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-construct01
+  name: syntax-form-construct01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-construct02
+  name: syntax-form-construct02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-construct03
+  name: syntax-form-construct03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-construct04
+  name: syntax-form-construct04.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-construct06
+  name: syntax-form-construct06.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-describe01
+  name: syntax-form-describe01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-form-describe02
+  name: syntax-form-describe02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-dataset-01
+  name: syntax-dataset-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-dataset-02
+  name: syntax-dataset-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-dataset-03
+  name: syntax-dataset-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-dataset-04
+  name: syntax-dataset-04.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-graph-01
+  name: syntax-graph-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-graph-02
+  name: syntax-graph-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-graph-03
+  name: syntax-graph-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-graph-04
+  name: syntax-graph-04.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-graph-05
+  name: syntax-graph-05.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-esc-01
+  name: syntax-esc-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-esc-02
+  name: syntax-esc-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-esc-03
+  name: syntax-esc-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-esc-04
+  name: syntax-esc-04.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql2/manifest#syntax-esc-05
+  name: syntax-esc-05.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-01
+  name: syn-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-02
+  name: syn-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-03
+  name: syn-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-04
+  name: syn-04.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-05
+  name: syn-05.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-06
+  name: syn-06.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-07
+  name: syn-07.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-08
+  name: syn-08.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-01
+  name: syn-bad-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-02
+  name: syn-bad-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-03
+  name: syn-bad-03.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-04
+  name: syn-bad-04.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-05
+  name: syn-bad-05.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-06
+  name: syn-bad-06.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-07
+  name: syn-bad-07.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-08
+  name: syn-bad-08.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-09
+  name: syn-bad-09.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-10
+  name: syn-bad-10.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-11
+  name: syn-bad-11.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-12
+  name: syn-bad-12.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-13
+  name: syn-bad-13.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-14
+  name: syn-bad-14.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-15
+  name: syn-bad-15.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-16
+  name: syn-bad-16.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-17
+  name: syn-bad-17.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-18
+  name: syn-bad-18.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-19
+  name: syn-bad-19.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-20
+  name: syn-bad-20.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-21
+  name: syn-bad-21.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-22
+  name: syn-bad-22.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-23
+  name: syn-bad-23.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-24
+  name: syn-bad-24.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-25
+  name: syn-bad-25.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-26
+  name: syn-bad-26.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JulSep/att-0118/04-dawg-minutes.html
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-27
+  name: syn-bad-27.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-28
+  name: syn-bad-28.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-29
+  name: syn-bad-29.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-30
+  name: syn-bad-30.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#syn-bad-31
+  name: syn-bad-31.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#bnode-dot
+  name: syn-bad-bnode-dot.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#bnodes-missing-pvalues-01
+  name: syn-bad-bnodes-missing-pvalues-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#bnodes-missing-pvalues-02
+  name: syn-bad-bnodes-missing-pvalues-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#empty-optional-01
+  name: syn-bad-empty-optional-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#empty-optional-02
+  name: syn-bad-empty-optional-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#filter-missing-parens
+  name: syn-bad-filter-missing-parens.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#lone-list
+  name: syn-bad-lone-list.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#lone-node
+  name: syn-bad-lone-node.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#blabel-cross-filter
+  name: syn-blabel-cross-filter
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007AprJun/att-0012/2007-04-10-dawg-minutes.html#item06
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#blabel-cross-graph-bad
+  name: syn-blabel-cross-graph-bad
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007AprJun/att-0012/2007-04-10-dawg-minutes.html#item06
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#blabel-cross-optional-bad
+  name: syn-blabel-cross-optional-bad
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JulSep/att-0118/04-dawg-minutes.html
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql3/manifest#blabel-cross-union-bad
+  name: syn-blabel-cross-union-bad
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JulSep/att-0118/04-dawg-minutes.html
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-09
+  name: syn-09.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2007/02/13-dawg-minutes.html
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-10
+  name: syn-10.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2007/02/13-dawg-minutes.html
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-11
+  name: syn-11.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2007/02/13-dawg-minutes.html
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-bad-34
+  name: syn-bad-34.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2007/02/13-dawg-minutes.html
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-bad-35
+  name: syn-bad-35.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2007/02/13-dawg-minutes.html
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-bad-36
+  name: syn-bad-36.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2007/02/13-dawg-minutes.html
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-bad-37
+  name: syn-bad-37.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2007/02/13-dawg-minutes.html
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-bad-38
+  name: syn-bad-38.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2007/02/13-dawg-minutes.html
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-bad-OPT-breaks-BGP
+  name: syn-bad-OPT-breaks-BGP
+  comment: "bad: re-used BNode label after OPTIONAL"
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007AprJun/att-0063/29-dawg-minutes.htm
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-bad-UNION-breaks-BGP
+  name: syn-bad-UNION-breaks-BGP
+  comment: "bad: re-used BNode label after UNION"
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JulSep/att-0118/04-dawg-minutes.html
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-bad-GRAPH-breaks-BGP
+  name: syn-bad-GRAPH-breaks-BGP
+  comment: "bad: re-used BNode label after GRAPH"
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007AprJun/att-0063/29-dawg-minutes.htm
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql4/manifest#syn-leading-digits-in-prefixed-names
+  name: syn-leading-digits-in-prefixed-names.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007AprJun/att-0063/29-dawg-minutes.htm
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql5/manifest#syntax-reduced-01
+  name: syntax-reduced-01.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007OctDec/att-0069/13-dawg-minutes.html
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql5/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2001/sw/DataAccess/tests/data-r2/syntax-sparql5/manifest#syntax-reduced-02
+  name: syntax-reduced-02.rq
+  comment: 
+  query_file: 
+  test_data: 
+  result: 
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007OctDec/att-0069/13-dawg-minutes.html
+  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql5/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true

@@ -18,5 +18,20 @@ namespace :spec do
     t.pattern = 'spec/w3c/data-r2/**/*.rb'
     t.verbose = false
   end
-end
 
+  desc "Generate test caches"
+  task :prepare do
+    $:.unshift(File.join(File.dirname(__FILE__), 'lib'))
+    require 'sparql/spec'
+    require 'fileutils'
+    
+    Dir.glob("./tests/*.yml") { |yml| FileUtils.rm_rf(yml)}
+
+    puts "load 1.0 tests"
+    SPARQL::Spec.load_sparql1_0_tests(true)
+    puts "load 1.0 syntax tests"
+    SPARQL::Spec.load_sparql1_0_syntax_tests(true)
+    puts "load 1.1 tests"
+    SPARQL::Spec.load_sparql1_1_tests(true)
+  end
+end

@@ -1,0 +1,261 @@
+--- 
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/aggregates/manifest#agg-groupconcat-01
+  name: GROUP_CONCAT 1
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-1.rq
+  test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-1.ttl
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-1.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_2
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/aggregates/manifest#agg-groupconcat-02
+  name: GROUP_CONCAT 2
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-2.rq
+  test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-1.ttl
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-2.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_2
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/aggregates/manifest#agg-groupconcat-03
+  name: GROUP_CONCAT with SEPARATOR
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-3.rq
+  test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-1.ttl
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-3.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_2
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/project-expression/manifest#projexp01
+  name: Expression is equality
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp01.rq
+  test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp01.ttl
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp01.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_3
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/project-expression/manifest#projexp02
+  name: Expression raise an error
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp02.rq
+  test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp02.ttl
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp02.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_3
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/project-expression/manifest#projexp03
+  name: Reuse a project expression variable in select
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp03.rq
+  test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp03.ttl
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp03.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_3
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/project-expression/manifest#projexp04
+  name: Reuse a project expression variable in order by
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp04.rq
+  test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp04.ttl
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp04.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_3
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/project-expression/manifest#projexp05
+  name: Expression may return no value
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp05.rq
+  test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp05.ttl
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp05.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_3
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/project-expression/manifest#projexp06
+  name: Expression has undefined variable
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp06.rq
+  test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp06.ttl
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp06.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_3
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/project-expression/manifest#projexp07
+  name: Expression has variable that may be unbound
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp07.rq
+  test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp07.ttl
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp07.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_3
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery01
+  name: sq01 - Subquery within graph pattern
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq01.rq
+  test_data: 
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq01.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-13#resolution_2
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery02
+  name: sq02 - Subquery within graph pattern, graph variable is bound
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq02.rq
+  test_data: 
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq02.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-13#resolution_3
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery03
+  name: sq03 - Subquery within graph pattern, graph variable is not bound
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq03.rq
+  test_data: 
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq03.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-13#resolution_4
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery04
+  name: sq04 - Subquery within graph pattern, default graph does not apply
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq04.rq
+  test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq04.rdf
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq04.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-13#resolution_5
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery05
+  name: sq05 - Subquery within graph pattern, from named applies
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq05.rq
+  test_data: 
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq05.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-20#resolution_2
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery06
+  name: sq06 - Subquery with graph pattern, from named applies
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq06.rq
+  test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq05.rdf
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq06.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-20#resolution_2
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery07
+  name: "sq07 - Subquery with from "
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq07.rq
+  test_data: 
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq07.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-20#resolution_2
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery08
+  name: sq08 - Subquery with aggregate
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq08.rq
+  test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq08.rdf
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq08.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-20#resolution_2
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery09
+  name: sq09 - Nested Subqueries
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq09.rq
+  test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq09.rdf
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq09.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-20#resolution_2
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
+- !ruby/struct:SPARQL::Spec::SPARQLTestYAML 
+  subject: http://www.w3.org/2009/sparql/docs/tests/data-sparql11/subquery/manifest#subquery10
+  name: sq10 - Subquery with exists
+  comment: 
+  query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq10.rq
+  test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq10.rdf
+  result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq10.srx
+  approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
+  approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-20#resolution_2
+  manifest: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/manifest.ttl
+  tags: !ruby/object:Set 
+    hash: 
+      status:unverified: true
