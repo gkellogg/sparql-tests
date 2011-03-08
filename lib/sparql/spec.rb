@@ -2,6 +2,7 @@ require 'rdf'   # @see http://rubygems.org/gems/rdf
 require 'rdf/ntriples'
 require 'rdf/n3'
 require 'rspec' # @see http://rubygems.org/gems/rspec
+require 'yaml'
 
 module SPARQL
   ##
@@ -39,12 +40,15 @@ module SPARQL
   # @author [Arto Bendiken](http://ar.to/)
   # @author [Ben Lavender](http://bhuga.net/)
   module Spec
-    autoload :Manifest,       'sparql/spec/models'
-    autoload :SPARQLTest,     'sparql/spec/models'
-    autoload :SPARQLAction,   'sparql/spec/models'
-    autoload :SPARQLBinding,  'sparql/spec/models'
-    autoload :BindingSet,     'sparql/spec/models'
-    autoload :ResultBindings, 'sparql/spec/models'
+    autoload :Manifest,         'sparql/spec/models'
+    autoload :SPARQLTest,       'sparql/spec/models'
+    autoload :SPARQLAction,     'sparql/spec/models'
+    autoload :SPARQLTestYAML,   'sparql/spec/models'
+    autoload :SPARQLBinding,    'sparql/spec/models'
+    autoload :BindingSet,       'sparql/spec/models'
+    autoload :ResultBindings,   'sparql/spec/models'
+
+    BASE_DIRECTORY = File.join(File.expand_path(File.dirname(__FILE__)), '..', '..', 'tests')
 
     # Module functions
     
@@ -52,22 +56,27 @@ module SPARQL
     # Load tests from the specified file/uri.
     # @param [String] manifest_uri
     # @param [Hash<Symbol => Object>] options
-    # @option options [String] :base_uri (manifest_uri)
-    # @option options [String] :context (nil)
-    # @option options [String] :context (nil)
-    # @option options [String] :include_files (nil)
-    #   Load included manifests
+    # @option options [String] :cache_file (nil)
+    #   Attempt to load parsed tests from YAML file
+    # @option options [String] :save_cache (false)
+    #   Save parsed tests in cache_file
     # @return [Array<SPARQL::Spec::SPARQLTest>]
     def self.load_tests(manifest_uri, options = {})
+      require 'spira'
       options[:base_uri] ||= manifest_uri
 
-      require 'spira'
-
-      puts "Loading tests from #{manifest_uri}"
       test_repo = RDF::Repository.new
       Spira.add_repository(:default, test_repo)
-      test_repo.load(manifest_uri, options)
-      if options[:include_files]
+
+      if options[:cache_file] && File.exists?(options[:cache_file])
+        
+        File.open(options[:cache_file]) do |f|
+          YAML.load(f).map(&:to_test)
+        end
+      else
+
+        puts "Loading tests from #{manifest_uri}"
+        test_repo.load(manifest_uri, options)
         Manifest.each { |manifest| manifest.include_files! }
         tests = Manifest.each.map { |m| m.entries }.flatten.find_all { |t| t.approved? }
         tests.each { |test|
@@ -75,64 +84,34 @@ module SPARQL
           test.tags << 'w3c_status:unapproved' unless test.approved?
           test.update!(:manifest => test.data.each_context.first)
         }
-      else
-        tests = Manifest.each.map { |m| m.entries }.flatten.find_all { |t| t.approved? }
-        tests.each { |test| test.update!(:manifest => manifest_file) unless test.manifest }
-      end
-    end
-
-    def self.load_sparql1_0_tests(cache = true)
-      base_directory = File.join(File.expand_path(File.dirname(__FILE__)), '..', '..', 'tests')
-      cache_file = './sparql-specs-1_0-cache.nt'
-      if ENV['MANIFEST']
-        self.load_tests(ENV['MANIFEST'], :context => ENV['MANIFEST'])
-      elsif File.exists?(cache_file)
-        self.load_tests(cache_file)
-      else
-        tests = self.load_tests("#{base_directory}/data-r2/manifest-evaluation.ttl", :include_files => true)
-        if cache
-          File.open(cache_file, 'w+') do |file|
-            file.write RDF::Writer.for(:ntriples).dump(Spira.repository(:default))
+          
+        if options[:save_cache]
+          puts "write test cases to #{options[:cache_file]}"
+          File.open(options[:cache_file], 'w') do |f|
+            YAML.dump(tests.map(&:for_yaml), f)
           end
         end
+        
         tests
       end
     end
 
-    def self.load_sparql1_0_syntax_tests(cache = true)
-      base_directory = File.join(File.expand_path(File.dirname(__FILE__)), '..', '..', 'tests')
-      cache_file = './sparql-specs-1_0_syntax-cache.nt'
-      if ENV['MANIFEST']
-        self.load_tests(ENV['MANIFEST'], :context => ENV['MANIFEST'])
-      elsif File.exists?(cache_file)
-        self.load_tests(cache_file)
-      else
-        tests = self.load_tests("#{base_directory}/data-r2/manifest-syntax.ttl", :include_files => true)
-        if cache
-          File.open(cache_file, 'w+') do |file|
-            file.write RDF::Writer.for(:ntriples).dump(Spira.repository(:default))
-          end
-        end
-        tests
-      end
+    def self.load_sparql1_0_tests(save_cache = false)
+      self.load_tests("#{BASE_DIRECTORY}/data-r2/manifest-evaluation.ttl",
+        :cache_file => File.join(BASE_DIRECTORY, "sparql-specs-1_0-cache.yml"),
+        :save_cache => save_cache)
     end
 
-    def self.load_sparql1_1_tests(cache = true)
-      base_directory = File.join(File.expand_path(File.dirname(__FILE__)), '..', '..', 'tests')
-      cache_file = './sparql-specs-cache.nt'
-      if ENV['MANIFEST']
-        self.load_tests(ENV['MANIFEST'], :context => ENV['MANIFEST'])
-      elsif File.exists?(cache_file)
-        self.load_tests(cache_file)
-      else
-        tests = self.load_tests("#{base_directory}/sparql11-tests/data-sparql11/manifest-all.ttl", :include_files => true)
-        if cache
-          File.open(cache_file, 'w+') do |file|
-            file.write RDF::Writer.for(:ntriples).dump(Spira.repository(:default))
-          end
-        end
-        tests
-      end
+    def self.load_sparql1_0_syntax_tests(save_cache = false)
+      self.load_tests("#{BASE_DIRECTORY}/data-r2/manifest-syntax.ttl",
+        :cache_file => File.join(BASE_DIRECTORY, "sparql-specs-1_0_syntax-cache.yml"),
+        :save_cache => save_cache)
+    end
+
+    def self.load_sparql1_1_tests(save_cache = false)
+      self.load_tests("#{BASE_DIRECTORY}/sparql11-tests/data-sparql11/manifest-all.ttl",
+        :cache_file => File.join(BASE_DIRECTORY, "sparql-specs-1_1_cache.yml"),
+        :save_cache => save_cache)
     end
   end # Spec
 end # RDF
