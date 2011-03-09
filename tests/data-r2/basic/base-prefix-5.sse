@@ -1,1 +1,2 @@
-(bgp (triple <http://example.org/x/#x> <http://example.org/x/#p> ?v))
+(base <http://example.org/x/>
+  (bgp (triple <#x> <#p> ?v)))
