@@ -122,7 +122,7 @@ module SPARQL::Spec
           a.query_file = RDF::URI(query_file)
           a.test_data = RDF::URI(test_data) if test_data
         end
-        test.result = result
+        test.result = RDF::URI(result) if approval
         test.approval = RDF::URI(approval) if approval
         test.approved_by = RDF::URI(approved_by) if approved_by
         test.manifest = RDF::URI(manifest) if manifest
