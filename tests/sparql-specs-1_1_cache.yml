@@ -6,6 +6,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-1.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-1.ttl
+  graph_data: []
+
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-1.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_2
@@ -20,6 +22,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-2.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-1.ttl
+  graph_data: []
+
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-2.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_2
@@ -34,6 +38,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-3.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-1.ttl
+  graph_data: []
+
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/aggregates/agg-groupconcat-3.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_2
@@ -48,6 +54,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp01.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp01.ttl
+  graph_data: []
+
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp01.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_3
@@ -62,6 +70,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp02.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp02.ttl
+  graph_data: []
+
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp02.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_3
@@ -76,6 +86,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp03.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp03.ttl
+  graph_data: []
+
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp03.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_3
@@ -90,6 +102,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp04.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp04.ttl
+  graph_data: []
+
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp04.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_3
@@ -104,6 +118,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp05.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp05.ttl
+  graph_data: []
+
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp05.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_3
@@ -118,6 +134,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp06.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp06.ttl
+  graph_data: []
+
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp06.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_3
@@ -132,6 +150,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp07.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp07.ttl
+  graph_data: []
+
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/project-expression/projexp07.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-09-07#resolution_3
@@ -146,6 +166,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq01.rq
   test_data: 
+  graph_data: 
+  - /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq01.rdf
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq01.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-13#resolution_2
@@ -160,6 +182,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq02.rq
   test_data: 
+  graph_data: 
+  - /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq01.rdf
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq02.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-13#resolution_3
@@ -174,6 +198,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq03.rq
   test_data: 
+  graph_data: 
+  - /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq01.rdf
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq03.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-13#resolution_4
@@ -188,6 +214,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq04.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq04.rdf
+  graph_data: 
+  - /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq01.rdf
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq04.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-13#resolution_5
@@ -202,6 +230,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq05.rq
   test_data: 
+  graph_data: 
+  - /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq05.rdf
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq05.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-20#resolution_2
@@ -216,6 +246,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq06.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq05.rdf
+  graph_data: []
+
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq06.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-20#resolution_2
@@ -230,6 +262,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq07.rq
   test_data: 
+  graph_data: 
+  - /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq05.rdf
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq07.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-20#resolution_2
@@ -244,6 +278,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq08.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq08.rdf
+  graph_data: []
+
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq08.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-20#resolution_2
@@ -258,6 +294,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq09.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq09.rdf
+  graph_data: []
+
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq09.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-20#resolution_2
@@ -272,6 +310,8 @@
   comment: 
   query_file: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq10.rq
   test_data: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq10.rdf
+  graph_data: []
+
   result: /Users/gregg/Projects/sparql-tests/tests/sparql11-tests/data-sparql11/subquery/sq10.srx
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2009/sparql/meeting/2010-07-20#resolution_2

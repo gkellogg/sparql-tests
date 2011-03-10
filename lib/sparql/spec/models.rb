@@ -55,6 +55,7 @@ module SPARQL::Spec
         comment,
         (action.query_file ? action.query_file.to_s : nil),
         (action.test_data ? action.test_data.to_s : nil),
+        action.graphData.to_a.map(&:to_s),
         (result ? result.to_s : nil),
         (approval ? approval.to_s : nil),
         (approved_by ? approved_by.to_s : nil),
@@ -67,7 +68,7 @@ module SPARQL::Spec
       @action ||= if _action.query_file
         _action
       else
-        SPARQLAction.new {|a| a.query_file = _action.subject }
+        SPARQLAction.new {|a| a.query_file = _action.subject; a.graphData = []; }
       end
     end
     
@@ -111,7 +112,7 @@ module SPARQL::Spec
     end
   end
 
-  SPARQLTestYAML = Struct.new(:subject, :name, :type, :comment, :query_file, :test_data, :result, :approval, :approved_by, :manifest, :tags) do
+  SPARQLTestYAML = Struct.new(:subject, :name, :type, :comment, :query_file, :test_data, :graph_data, :result, :approval, :approved_by, :manifest, :tags) do
     def to_test
       SPARQLTest.new do |test|
         #test.subject = RDF::URI(subject)
@@ -121,6 +122,7 @@ module SPARQL::Spec
         test.action = SPARQLAction.new do |a|
           a.query_file = RDF::URI(query_file)
           a.test_data = RDF::URI(test_data) if test_data
+          a.graphData = graph_data.map {|u| RDF::URI(u)}
         end
         test.result = RDF::URI(result) if approval
         test.approval = RDF::URI(approval) if approval
