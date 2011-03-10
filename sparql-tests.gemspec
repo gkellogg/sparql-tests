@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.email              = 'public-rdf-ruby@w3.org'
 
   gem.platform           = Gem::Platform::RUBY
-  gem.files              = %w(README VERSION) + Dir.glob('lib/**/*.rb')
+  gem.files              = %w(README.md VERSION) + Dir.glob('lib/**/*.rb')
   gem.bindir             = %q(bin)
   gem.executables        = %w()
   gem.default_executable = gem.executables.first
