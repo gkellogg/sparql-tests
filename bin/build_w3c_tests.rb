@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
-## TODO: ask results are just 'true' on the line, not 'expected = '
 
 $:.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 
 require 'sparql/spec'
+require 'sparql/spec/models'
 require 'sparql/client'
 require 'erubis'
 
@@ -43,7 +43,7 @@ def select_results_snippet(test)
     expected_repository = RDF::Repository.new 
     Spira.add_repository!(:results, expected_repository)
     expected_repository.load(test.result.path)
-    ResultBindings.each.first.solutions
+    SPARQL::Spec::ResultBindings.each.first.solutions
   end
   template = Erubis::Eruby.new(File.read(File.join(File.dirname(__FILE__), '..', 'etc', 'bindings.rb.erb')))
   template.result(binding)
@@ -51,15 +51,15 @@ end
 
 def ask_results_snippet(test)
   if File.extname(test.result.path) == '.srx'
-    SPARQL::Client.parse_xml_bindings(File.read(test.result.path))
+    "expected = #{SPARQL::Client.parse_xml_bindings(File.read(test.result.path))}"
   else
     expected_repository = RDF::Repository.new 
     Spira.add_repository!(:results, expected_repository)
     expected_repository.load(test.result.path)
-    if ResultBindings.each.first.boolean.nil?
+    if SPARQL::Spec::ResultBindings.each.first.boolean.nil?
       raise "Couldn't parse ask bindings for #{test.result.path}" # just an assertion, is there another case?
     end
-    "      expected = #{ResultBindings.each.first.boolean}"
+    "      expected = #{SPARQL::Spec::ResultBindings.each.first.boolean}"
   end
 end
 
@@ -67,8 +67,12 @@ def describe_results_snippet(test)
 end
 
 def filename_for(directory, test)
-  data_dir = case test.action.test_data
-    when nil
+  # special case dataset tests, which have an implicit graph setup that is not
+  # specified in the manifests
+  data_dir = case
+    when test.subject =~ /dataset/
+      'dataset/dataset'
+    when test.action.test_data.nil?
       test.action.graphData.first.path
     else
       test.action.test_data.path
@@ -80,26 +84,30 @@ def filename_for(directory, test)
   filename += '_spec.rb'
 end
 
-
 w3c_dir = ENV['DEST_DIR'] || File.join(File.expand_path(File.dirname(__FILE__)), '..', 'spec', 'sparql11',)
 
 begin Dir.mkdir(w3c_dir) rescue nil end
 
-tests = SPARQL::Spec.load_sparql1_1_tests
+tests = SPARQL::Spec.load_sparql1_0_tests
+
 skipped = ssf_skipped = existed = count = 0
 test_template = Erubis::Eruby.new(File.read(File.join(File.dirname(__FILE__), '..', 'etc', 'test.rb.erb')))
 tests.each do |test|
   puts "generating for #{test.name} from #{test.manifest}"
   puts "generating for #{File.basename(File.dirname(test.action.query_file))}/#{File.basename(test.action.query_file)}"
   count += 1
-  if test.action.test_data.nil?
-    #puts "Skipped #{test.name} from #{test.manifest} for not having a data file"
-    #skipped += 1
-    #next
-  end
 
   results_snippet = results_snippet_for(test)
 
+  # dataset tests do not specify their graphs or default (and in fact default
+  # is 4 files and we made this custom default.ttl)
+  if test.subject =~ /dataset/
+    dataset_dir = RDF::URI(File.join(File.dirname(__FILE__), '..', 'tests/data-r2/dataset'))
+    test.action.test_data = dataset_dir / 'default.ttl'
+    test.action.graphData = ['data-g1.ttl', 'data-g2.ttl', 'data-g3.ttl', 'data-g4.ttl'].map do |graph|
+      dataset_dir / graph
+    end
+  end
   graphs = test.action.graphData.to_a
 
   filename = filename_for(w3c_dir, test)

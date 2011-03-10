@@ -43,14 +43,14 @@ ASK {
 }
     end
 
-    example "SAMPLE", :status => 'unverified', :w3c_status => 'unapproved' do
+    example "SAMPLE", :unverified => true, :w3c_status => 'unapproved' do
     
       graphs = {}
       graphs[:default] = { :data => @data, :format => :ttl}
 
 
       repository = 'aggregates-agg-sample-01'
-true
+      expected = true
 
       sparql_query(:graphs => graphs, :query => @query,
                    :repository => repository, :form => :ask).should == expected

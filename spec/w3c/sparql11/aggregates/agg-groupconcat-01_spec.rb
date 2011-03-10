@@ -36,14 +36,14 @@ ASK {
 }
     end
 
-    example "GROUP_CONCAT 1", :status => 'unverified' do
+    example "GROUP_CONCAT 1", :unverified => true do
     
       graphs = {}
       graphs[:default] = { :data => @data, :format => :ttl}
 
 
       repository = 'aggregates-agg-groupconcat-01'
-true
+      expected = true
 
       sparql_query(:graphs => graphs, :query => @query,
                    :repository => repository, :form => :ask).should == expected

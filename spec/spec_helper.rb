@@ -44,45 +44,67 @@ Dir[File.join(File.dirname(__FILE__), "support/**/*.rb")].each {|f| require f}
 def sparql_query(opts)
 
   raise "Cannot run query without data" if (opts[:graphs].nil? || opts[:graphs].empty?) && !opts[:allow_empty]
-  raise "No graph import method available yet" if (opts[:graphs].keys.size > 1)
   raise "Please assign a repository to upload test data to" if opts[:repository].nil?
   raise "A query is required to be run" if opts[:query].nil?
 
   Dydra::Client.setup!
-  repository_name = "#{$dydra[:user]}/#{opts[:repository]}"
-
+  account = ENV['ACCOUNT'] || $dydra[:user]
+  repository_name = "#{account}/#{opts[:repository]}"
   if creating?
     log "Running dydra create #{repository_name}"
-    Dydra::Repository.create!(opts[:repository])
+    begin
+      Dydra::Repository.create!(opts[:repository])
+    rescue RestClient::UnprocessableEntity
+      # already exists
+    end
   end
 
   if importing?
-    repository_file = case
-      when opts[:graphs][:default][:url]
-        opts[:graphs][:default][:url]
-      else
-        repository = File.join(Dir.tmpdir, ('a'..'z').to_a.shuffle[0..4].join + ".#{opts[:graphs][:default][:format]}")
-        log "tempfile: #{repository}"
-        File.open(repository, 'w+') { |f| f.write(opts[:graphs][:default][:data]) }
-        repository
-    end
-    log "importing data:"
-    log opts[:graphs][:default][:data] || opts[:graphs][:default][:url]
+    base_uri = RDF::URI(Dydra::URI) / account / opts[:repository]
     repository = Dydra::Repository.new(opts[:repository])
     log "Running dydra clear #{repository_name} #{repository}"
     repository.clear!
-    log "Running dydra import #{repository_name} #{repository}"
-    repository.import!(repository_file).wait!
+    opts[:graphs].each do | graph, options |
+      repository_file = case
+        when options[:url]
+          options[:url]
+        else
+          tempfile = File.join(Dir.tmpdir, ('a'..'z').to_a.shuffle[0..4].join + ".#{options[:format]}")
+          log "tempfile: #{tempfile}"
+          File.open(tempfile, 'w+') { |f| f.write(options[:data]) }
+          log IO.read(tempfile).to_s
+          tempfile
+      end
+      context = graph == :default ? nil : graph
+      log "importing data into context #{context} "
+      log options[:data] || options[:url]
+      repository.import!(repository_file, :context => context, :base_uri => base_uri).wait!
+    end
   end
 
   log "Running dydra query #{repository_name} '#{opts[:query]}'"
-  result = nil
+  result = raw_result = nil
   taken = timer do
-    result = Dydra::Repository.new(opts[:repository]).query(opts[:query], :parsed)
+    format = case
+      when opts[:form] == :construct || opts[:form] == :describe
+        :parsed
+      when ENV['DYDRA_XML']
+        :xml
+      else
+        :json
+    end
+    raw_result = Dydra::Repository.new(account + '/' + opts[:repository]).query(opts[:query], format)
+    log raw_result
+    if opts[:form] == :select || opts[:form] == :ask
+      result = SPARQL::Client.send("parse_#{format}_bindings".to_sym, raw_result)
+      result = !!result if opts[:form] == :ask
+    elsif
+      result = raw_result
+    end
   end
    
   log "Result: (query took #{taken} seconds)"
-  log result
+  log result.each_statement.to_a.map {|s| "#{s.subject} #{s.predicate} #{s.object}" }.join("\n")if result.respond_to?(:each_statement)
   result.map!(&:to_hash) if opts[:form] == :select
   result
 end
