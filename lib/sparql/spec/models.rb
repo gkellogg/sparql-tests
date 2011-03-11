@@ -165,7 +165,7 @@ module SPARQL::Spec
 
   class ResultBindings < Spira::Base
     type RS.ResultSet
-    has_many :variables, :predicate => RS.ResultSet
+    has_many :variables, :predicate => RS.resultVariable
     has_many :solution_lists, :predicate => RS.solution, :type => 'BindingSet'
     property :boolean, :predicate => RS.boolean, :type => Boolean # for ask queries
     default_source :results
@@ -173,7 +173,7 @@ module SPARQL::Spec
     def solutions
       @solutions ||= solution_lists.map { |solution_list|
         solution_list.bindings.inject({}) { |hash, binding|
-          hash[binding.variable] = binding.value
+          hash[binding.variable.to_sym] = binding.value
           hash
         }
       }
