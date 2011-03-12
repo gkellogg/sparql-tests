@@ -27,7 +27,7 @@ class RDF::Query
     # @param other [RDF::Query::Solutions]
     # @return [Boolean]
     # @example
-    #     repository_a.isomorphic_with repository_b #=> true
+    #     solutions_a.isomorphic_with solutions_b #=> true
     def isomorphic_with?(other, opts = {})
       !(bijection_to(other, opts).nil?)
     end
@@ -70,7 +70,22 @@ class RDF::Query
       else
         nil
       end
+    end
 
+    # Returns a new RDF::Query::Solutions with BNodes substituted using the result
+    # of #bijection_to.
+    #
+    # @return [RDF::Query::Solutions]
+    def map_nodes!(bijection)
+      self.each do |solution|
+        solution.each_binding do |name, value|
+          solution[name] = bijection.fetch(value, value)
+        end
+      end
+    end
+    
+    def map_nodes(bijection)
+      self.dup.map_nodes!(bijection)
     end
   
     private
