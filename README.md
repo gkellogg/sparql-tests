@@ -23,6 +23,45 @@ To run only the tests that we would expect to pass:
 Known buggy tests are skipped with `--tag '~status:bug'`, to enable them,
 remove the tag.
 
+### Running specs from another project
+{SPARQL::Spec} can be required from a project implementing a SPARQL engine by requiring
+'sparql/spec' and using with a spec running such as the following:
+
+    require File.join(File.dirname(__FILE__), 'spec_helper')
+    require 'sparql/spec'
+    require 'rdf/isomorphic'
+
+    describe SPARQL::Algebra do
+      describe "w3c dawg SPARQL syntax tests" do
+        SPARQL::Spec.load_sparql1_0_tests.group_by(&:manifest).each do |man, tests|
+          describe man.to_s.split("/")[-2] do
+            tests.each do |t|
+              it "evaluates #{t.name}" do
+
+                graphs = t.graphs # Hash containing strings for :default and named graphs
+
+                query = t.action.query_string
+                expected = t.solutions          # RDF::Query::Solutions, RDF::Graph or boolean, based on form
+
+                result = sparql_query(:graphs => graphs, :query => query, :base_uri => t.action,
+                                      :repository => "sparql-spec", :form => t.form)
+
+                case t.form
+                when :select, :create, :describe
+                  result.should be_isomorphic_with(expected)
+                when :ask
+                  result.should be_true
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+
+Within `spec_helper`, define a method `sparql_query`, taking defined graphs, and query string
+returning an `RDF::Query::Solutions` result set. For example:
+
 #### Known Quirks
 
 The tags above represent our known quirks. W3C tests remain alongside these
