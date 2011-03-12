@@ -1,7 +1,8 @@
 require 'rdf'
 require 'spira'
 require 'rdf/n3'
-require 'rdf/isomorphic'
+require 'rdf/rdf-xml'
+require 'sparql/client'
 
 module SPARQL::Spec
   DAWG = RDF::Vocabulary.new('http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#')
@@ -76,6 +77,39 @@ module SPARQL::Spec
       @action = act
     end
     
+    # Load and return default and named graphs in a hash
+    def graphs
+      @graphs ||= begin
+        graphs = {}
+        graphs[:default] = {:data => IO.read(action.test_data.path), :format => :ttl} if action.test_data
+        action.graphData.each do |g|
+          graphs[g] = {:data => IO.read(g.path), :format => :ttl}
+        end
+        graphs
+      end
+    end
+
+    # Turn results into solutions
+    def solutions
+      return nil if result.nil?
+
+      case form
+      when :select
+        if File.extname(result.path) == '.srx'
+          SPARQL::Client.parse_xml_bindings(File.read(result.path))
+        else
+          expected_repository = RDF::Repository.new 
+          Spira.add_repository!(:results, expected_repository)
+          expected_repository.load(result.path)
+          SPARQL::Spec::ResultBindings.each.first.solutions
+        end
+      when :ask
+        return true
+      when :describe, :create
+        RDF::Graph.load(result, :format => :ttl)
+      end
+    end
+
     def inspect
       "[#{self.class.to_s} " + %w(
         subject
@@ -170,13 +204,18 @@ module SPARQL::Spec
     property :boolean, :predicate => RS.boolean, :type => Boolean # for ask queries
     default_source :results
 
+    # Return bindings as an list of Solutions
+    # @return [Enumerable<RDF::Query::Solution>]
     def solutions
-      @solutions ||= solution_lists.map { |solution_list|
-        solution_list.bindings.inject({}) { |hash, binding|
-          hash[binding.variable.to_sym] = binding.value
-          hash
-        }
-      }
+      @solutions ||= begin
+        solution_lists.map do |solution_list|
+          bindings = solution_list.bindings.inject({}) { |hash, binding|
+            hash[binding.variable.to_sym] = binding.value
+            hash
+          }
+          RDF::Query::Solution.new(bindings)
+        end
+      end
     end
 
     def self.for_solutions(solutions, opts = {})
