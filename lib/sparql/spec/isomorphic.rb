@@ -300,7 +300,7 @@ class RDF::Query
     end
   end
 
-  # Mixing for RDF::Query::Solution
+  # Mixin for RDF::Query::Solution
   class Solution
     # Does solution use any blank nodes?
     # @return [Boolean]
