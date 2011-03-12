@@ -15,11 +15,14 @@ GEM
     diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    ffi (1.0.6)
+      rake (>= 0.8.7)
     json_pure (1.5.1)
     macaddr (1.0.0)
     mime-types (1.16)
     promise (0.3.0)
     proxies (0.2.1)
+    rake (0.8.7)
     rdf (0.3.1)
       addressable (>= 2.2)
     rdf-isomorphic (0.3.4)
@@ -29,6 +32,9 @@ GEM
       rdf (~> 0.3.0)
     rdf-n3 (0.3.1.1)
       rdf (>= 0.3.1)
+    rdf-raptor (0.4.1)
+      ffi (>= 1.0)
+      rdf (~> 0.3.0)
     rest-client (1.6.1)
       mime-types (>= 1.16)
     rspec (2.5.0)
@@ -62,6 +68,7 @@ DEPENDENCIES
   rdf-isomorphic
   rdf-json
   rdf-n3
+  rdf-raptor
   rspec
   s3
   sparql-client (>= 0.0.9)
