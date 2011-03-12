@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:/dydra/dydra.git
-  revision: 75fd869afb7c30dc4df1dec10636c4e0e8c979ee
+  revision: 0afae8eb7e2d2a27ac4d085709e642c216d7d11d
   specs:
     dydra (0.0.5)
       rdf (~> 0.3.0)
@@ -20,6 +20,7 @@ GEM
     json_pure (1.5.1)
     macaddr (1.0.0)
     mime-types (1.16)
+    nokogiri (1.4.4)
     promise (0.3.0)
     proxies (0.2.1)
     rake (0.8.7)
@@ -35,6 +36,9 @@ GEM
     rdf-raptor (0.4.1)
       ffi (>= 1.0)
       rdf (~> 0.3.0)
+    rdf-rdfxml (0.3.2.1)
+      nokogiri (>= 1.4.4)
+      rdf (>= 0.3.1)
     rest-client (1.6.1)
       mime-types (>= 1.16)
     rspec (2.5.0)
@@ -67,8 +71,9 @@ DEPENDENCIES
   rdf (>= 0.3.0)
   rdf-isomorphic
   rdf-json
-  rdf-n3
+  rdf-n3 (>= 0.3.1)
   rdf-raptor
+  rdf-rdfxml (>= 0.3.1)
   rspec
   s3
   sparql-client (>= 0.0.9)

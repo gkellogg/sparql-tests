@@ -3,7 +3,9 @@ require 'rdf/ntriples'
 require 'rdf/n3'
 require 'rspec' # @see http://rubygems.org/gems/rspec
 require 'yaml'
+require 'sparql/spec/inspects'
 require 'sparql/spec/isomorphic'
+require 'sparql/spec/matchers'
 
 module SPARQL
   ##

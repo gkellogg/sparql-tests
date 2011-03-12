@@ -1,7 +1,7 @@
 require 'rdf'
 require 'spira'
 require 'rdf/n3'
-require 'rdf/rdf-xml'
+require 'rdf/rdfxml'
 require 'sparql/client'
 
 module SPARQL::Spec

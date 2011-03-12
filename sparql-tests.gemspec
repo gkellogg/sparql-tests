@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.description        = gem.summary
   gem.rubyforge_project  = 'sparql'
 
-  gem.authors            = ['Ben Levender']
+  gem.authors            = ['Ben Levender', 'Gregg Kellogg']
   gem.email              = 'public-rdf-ruby@w3.org'
 
   gem.platform           = Gem::Platform::RUBY
@@ -27,10 +27,14 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version      = '>= 1.8.1'
   gem.requirements               = []
-  gem.add_runtime_dependency     'rdf',           '~> 0.3.0'
-  gem.add_development_dependency 'yard' ,         '>= 0.6.0'
-  gem.add_development_dependency 'rspec',         '>= 2.1.0'
-  gem.add_development_dependency 'rdf-spec',      '~> 0.3.0'
-  gem.add_development_dependency 'spira'
+  gem.add_runtime_dependency     'rdf',            '~> 0.3.0'
+  gem.add_runtime_dependency     'rspec',          '~> 2.1.0'
+  gem.add_runtime_dependency     'rdf-isomorphic', '~> 0.3.0'
+  gem.add_runtime_dependency     'rdf-n3',         '~> 0.3.0'
+  gem.add_runtime_dependency     'rdf-rdfxml',     '~> 0.3.0'
+  gem.add_runtime_dependency     'rdf-spec',       '~> 0.3.0'
+  gem.add_runtime_dependency     'sparql-client',  '>= 0.0.9'
+  gem.add_runtime_dependency     'spira',          '>= 0.0.12'
+  gem.add_development_dependency 'yard' ,          '~> 0.6.0'
   gem.post_install_message       = nil
 end
