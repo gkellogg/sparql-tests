@@ -6,8 +6,8 @@ RSpec::Matchers.define :describe_solutions do |expected_solutions|
   
   failure_message_for_should do |actual_solutions|
     "expected solutions to be isomorphic\n" +
-    "compare:\n#{actual_solutions.inspect}" +
-    "\nwith:\n#{expected_solutions.inspect}" +
+    "expected:\n#{expected_solutions.inspect}" +
+    "\nactual:\n#{actual_solutions.inspect}" +
     "\nmissing:\n#{(expected_solutions - actual_solutions).inspect}" +
     "\nextra:\n#{(actual_solutions - expected_solutions).inspect}"
   end

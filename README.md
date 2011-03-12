@@ -43,7 +43,7 @@ remove the tag.
                 query = t.action.query_string
                 expected = t.solutions          # RDF::Query::Solutions, RDF::Graph or boolean, based on form
 
-                result = sparql_query(:graphs => graphs, :query => query, :base_uri => t.action,
+                result = sparql_query(:graphs => graphs, :query => query, :base_uri => t.action.query_file,
                                       :repository => "sparql-spec", :form => t.form)
 
                 case t.form
