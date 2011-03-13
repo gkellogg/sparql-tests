@@ -208,7 +208,9 @@ module SPARQL::Spec
     # @return [Enumerable<RDF::Query::Solution>]
     def solutions
       @solutions ||= begin
-        solution_lists.map do |solution_list|
+        solution_lists.
+          sort_by {|solution_list| solution_list.index.to_i}.
+          map do |solution_list|
           bindings = solution_list.bindings.inject({}) { |hash, binding|
             hash[binding.variable.to_sym] = binding.value
             hash
