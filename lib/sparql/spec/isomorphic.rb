@@ -124,9 +124,7 @@ class RDF::Query
       # conflict, so we don't check them.  This is a little bit messy in the
       # middle of the method, and probably slows down isomorphic checks,  but
       # prevents almost-isomorphic cases from getting nutty.
-      return nil if these_hashes.values.any? { |hash|
-        !(other_hashes.values.member?(hash))
-      }
+      return nil if these_hashes.values.any? { |hash| !(other_hashes.values.member?(hash)) }
       return nil if other_hashes.values.any? { |hash| !(these_hashes.values.member?(hash)) }
 
       # Using the created hashes, map nodes to other_nodes
@@ -248,7 +246,8 @@ class RDF::Query
       solution_signatures = []
       grounded = true
       solutions.each do | solution |
-        if solution.bindings.values.include?(node)
+        # include? uses ==, which matches to agressively for Nodes
+        if solution.bindings.values.any? {|v| v.eql?(node)}
           solution_signatures << hash_string_for(solution, hashes, node, canonicalize)
           solution.bindings.values.each do | resource |
             grounded = false unless grounded(resource, hashes) || resource == node
@@ -282,7 +281,7 @@ class RDF::Query
     # nodes will return their hashed form.
     # @return [String]
     # @private
-    def self.string_for_node(node, hashes,target, canonicalize)
+    def self.string_for_node(node, hashes, target, canonicalize)
       case
         when node == target
           "itself"
