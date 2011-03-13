@@ -29,8 +29,8 @@ RSpec::Matchers.define :describe_ordered_solutions do |expected_solutions|
     "\nactual:\n#{actual_solutions.inspect}"
     missing = (expected_solutions - actual_solutions)
     extra = (actual_solutions - expected_solutions)
-    msg += "\nmissing:\n#{missing.inspect}" if missing
-    msg += "\nextra:\n#{extra.inspect}" if extra
+    msg += "\nmissing:\n#{missing.inspect}" unless missing.empty?
+    msg += "\nextra:\n#{extra.inspect}" unless extra.empty?
     msg
   end
 end
