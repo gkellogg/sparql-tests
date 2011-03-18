@@ -28,7 +28,7 @@ Gem::Specification.new do |gem|
   gem.required_ruby_version      = '>= 1.8.1'
   gem.requirements               = []
   gem.add_runtime_dependency     'rdf',            '~> 0.3.0'
-  gem.add_runtime_dependency     'rspec',          '~> 2.1.0'
+  gem.add_runtime_dependency     'rspec',          '>= 2.5.0'
   gem.add_runtime_dependency     'rdf-isomorphic', '~> 0.3.0'
   gem.add_runtime_dependency     'rdf-n3',         '~> 0.3.0'
   gem.add_runtime_dependency     'rdf-rdfxml',     '~> 0.3.0'
