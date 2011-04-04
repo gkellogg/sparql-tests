@@ -4,14 +4,14 @@
   name: syntax-basic-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-basic-01.rq
+  query_file: data-r2/syntax-sparql1/syntax-basic-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -20,14 +20,14 @@
   name: syntax-basic-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-basic-02.rq
+  query_file: data-r2/syntax-sparql1/syntax-basic-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -36,14 +36,14 @@
   name: syntax-basic-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-basic-03.rq
+  query_file: data-r2/syntax-sparql1/syntax-basic-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -52,14 +52,14 @@
   name: syntax-basic-04.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-basic-04.rq
+  query_file: data-r2/syntax-sparql1/syntax-basic-04.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -68,14 +68,14 @@
   name: syntax-basic-05.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-basic-05.rq
+  query_file: data-r2/syntax-sparql1/syntax-basic-05.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -84,14 +84,14 @@
   name: syntax-basic-06.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-basic-06.rq
+  query_file: data-r2/syntax-sparql1/syntax-basic-06.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -100,14 +100,14 @@
   name: syntax-qname-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-qname-01.rq
+  query_file: data-r2/syntax-sparql1/syntax-qname-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -116,14 +116,14 @@
   name: syntax-qname-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-qname-02.rq
+  query_file: data-r2/syntax-sparql1/syntax-qname-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -132,14 +132,14 @@
   name: syntax-qname-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-qname-03.rq
+  query_file: data-r2/syntax-sparql1/syntax-qname-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -148,14 +148,14 @@
   name: syntax-qname-04.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-qname-04.rq
+  query_file: data-r2/syntax-sparql1/syntax-qname-04.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -164,14 +164,14 @@
   name: syntax-qname-05.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-qname-05.rq
+  query_file: data-r2/syntax-sparql1/syntax-qname-05.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -180,14 +180,14 @@
   name: syntax-qname-06.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-qname-06.rq
+  query_file: data-r2/syntax-sparql1/syntax-qname-06.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -196,14 +196,14 @@
   name: syntax-qname-07.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-qname-07.rq
+  query_file: data-r2/syntax-sparql1/syntax-qname-07.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -212,14 +212,14 @@
   name: syntax-qname-08.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-qname-08.rq
+  query_file: data-r2/syntax-sparql1/syntax-qname-08.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -228,14 +228,14 @@
   name: syntax-lit-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-01.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -244,14 +244,14 @@
   name: syntax-lit-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-02.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -260,14 +260,14 @@
   name: syntax-lit-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-03.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -276,14 +276,14 @@
   name: syntax-lit-04.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-04.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-04.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -292,14 +292,14 @@
   name: syntax-lit-05.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-05.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-05.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -308,14 +308,14 @@
   name: syntax-lit-06.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-06.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-06.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -324,14 +324,14 @@
   name: syntax-lit-07.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-07.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-07.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -340,14 +340,14 @@
   name: syntax-lit-08.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-08.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-08.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -356,14 +356,14 @@
   name: syntax-lit-09.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-09.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-09.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -372,14 +372,14 @@
   name: syntax-lit-10.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-10.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-10.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -388,14 +388,14 @@
   name: syntax-lit-11.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-11.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-11.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -404,14 +404,14 @@
   name: syntax-lit-12.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-12.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-12.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -420,14 +420,14 @@
   name: syntax-lit-13.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-13.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-13.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -436,14 +436,14 @@
   name: syntax-lit-14.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-14.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-14.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -452,14 +452,14 @@
   name: syntax-lit-15.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-15.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-15.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -468,14 +468,14 @@
   name: syntax-lit-16.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-16.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-16.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -484,14 +484,14 @@
   name: syntax-lit-17.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-17.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-17.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -500,14 +500,14 @@
   name: syntax-lit-18.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-18.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-18.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -516,14 +516,14 @@
   name: syntax-lit-19.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-19.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-19.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -532,14 +532,14 @@
   name: syntax-lit-20.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lit-20.rq
+  query_file: data-r2/syntax-sparql1/syntax-lit-20.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -548,14 +548,14 @@
   name: syntax-struct-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-01.rq
+  query_file: data-r2/syntax-sparql1/syntax-struct-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -564,14 +564,14 @@
   name: syntax-struct-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-02.rq
+  query_file: data-r2/syntax-sparql1/syntax-struct-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -580,14 +580,14 @@
   name: syntax-struct-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-03.rq
+  query_file: data-r2/syntax-sparql1/syntax-struct-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -596,14 +596,14 @@
   name: syntax-struct-05.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-05.rq
+  query_file: data-r2/syntax-sparql1/syntax-struct-05.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -612,14 +612,14 @@
   name: syntax-struct-06.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-06.rq
+  query_file: data-r2/syntax-sparql1/syntax-struct-06.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -628,14 +628,14 @@
   name: syntax-struct-07.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-07.rq
+  query_file: data-r2/syntax-sparql1/syntax-struct-07.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -644,14 +644,14 @@
   name: syntax-struct-08.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-08.rq
+  query_file: data-r2/syntax-sparql1/syntax-struct-08.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -660,14 +660,14 @@
   name: syntax-struct-09.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-09.rq
+  query_file: data-r2/syntax-sparql1/syntax-struct-09.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -676,14 +676,14 @@
   name: syntax-struct-10.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-10.rq
+  query_file: data-r2/syntax-sparql1/syntax-struct-10.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -692,14 +692,14 @@
   name: syntax-struct-11.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-11.rq
+  query_file: data-r2/syntax-sparql1/syntax-struct-11.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -708,14 +708,14 @@
   name: syntax-struct-12.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-12.rq
+  query_file: data-r2/syntax-sparql1/syntax-struct-12.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -724,14 +724,14 @@
   name: syntax-struct-13.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-13.rq
+  query_file: data-r2/syntax-sparql1/syntax-struct-13.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -740,14 +740,14 @@
   name: syntax-struct-14.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-struct-14.rq
+  query_file: data-r2/syntax-sparql1/syntax-struct-14.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -756,14 +756,14 @@
   name: syntax-lists-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lists-01.rq
+  query_file: data-r2/syntax-sparql1/syntax-lists-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -772,14 +772,14 @@
   name: syntax-lists-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lists-02.rq
+  query_file: data-r2/syntax-sparql1/syntax-lists-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -788,14 +788,14 @@
   name: syntax-lists-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lists-03.rq
+  query_file: data-r2/syntax-sparql1/syntax-lists-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -804,14 +804,14 @@
   name: syntax-lists-04.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lists-04.rq
+  query_file: data-r2/syntax-sparql1/syntax-lists-04.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -820,14 +820,14 @@
   name: syntax-lists-05.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-lists-05.rq
+  query_file: data-r2/syntax-sparql1/syntax-lists-05.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -836,14 +836,14 @@
   name: syntax-bnodes-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-bnodes-01.rq
+  query_file: data-r2/syntax-sparql1/syntax-bnodes-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -852,14 +852,14 @@
   name: syntax-bnodes-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-bnodes-02.rq
+  query_file: data-r2/syntax-sparql1/syntax-bnodes-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -868,14 +868,14 @@
   name: syntax-bnodes-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-bnodes-03.rq
+  query_file: data-r2/syntax-sparql1/syntax-bnodes-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -884,14 +884,14 @@
   name: syntax-bnodes-04.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-bnodes-04.rq
+  query_file: data-r2/syntax-sparql1/syntax-bnodes-04.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -900,14 +900,14 @@
   name: syntax-bnodes-05.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-bnodes-05.rq
+  query_file: data-r2/syntax-sparql1/syntax-bnodes-05.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -916,14 +916,14 @@
   name: syntax-forms-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-forms-01.rq
+  query_file: data-r2/syntax-sparql1/syntax-forms-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -932,14 +932,14 @@
   name: syntax-forms-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-forms-02.rq
+  query_file: data-r2/syntax-sparql1/syntax-forms-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -948,14 +948,14 @@
   name: syntax-union-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-union-01.rq
+  query_file: data-r2/syntax-sparql1/syntax-union-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -964,14 +964,14 @@
   name: syntax-union-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-union-02.rq
+  query_file: data-r2/syntax-sparql1/syntax-union-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -980,14 +980,14 @@
   name: syntax-expr-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-expr-01.rq
+  query_file: data-r2/syntax-sparql1/syntax-expr-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -996,14 +996,14 @@
   name: syntax-expr-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-expr-02.rq
+  query_file: data-r2/syntax-sparql1/syntax-expr-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1012,14 +1012,14 @@
   name: syntax-expr-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-expr-03.rq
+  query_file: data-r2/syntax-sparql1/syntax-expr-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1028,14 +1028,14 @@
   name: syntax-expr-04.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-expr-04.rq
+  query_file: data-r2/syntax-sparql1/syntax-expr-04.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1044,14 +1044,14 @@
   name: syntax-expr-05.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-expr-05.rq
+  query_file: data-r2/syntax-sparql1/syntax-expr-05.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1060,14 +1060,14 @@
   name: syntax-order-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-order-01.rq
+  query_file: data-r2/syntax-sparql1/syntax-order-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1076,14 +1076,14 @@
   name: syntax-order-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-order-02.rq
+  query_file: data-r2/syntax-sparql1/syntax-order-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1092,14 +1092,14 @@
   name: syntax-order-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-order-03.rq
+  query_file: data-r2/syntax-sparql1/syntax-order-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1108,14 +1108,14 @@
   name: syntax-order-04.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-order-04.rq
+  query_file: data-r2/syntax-sparql1/syntax-order-04.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1124,14 +1124,14 @@
   name: syntax-order-05.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-order-05.rq
+  query_file: data-r2/syntax-sparql1/syntax-order-05.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1140,14 +1140,14 @@
   name: syntax-order-06.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-order-06.rq
+  query_file: data-r2/syntax-sparql1/syntax-order-06.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1156,14 +1156,14 @@
   name: syntax-order-07.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-order-07.rq
+  query_file: data-r2/syntax-sparql1/syntax-order-07.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1172,14 +1172,14 @@
   name: syntax-limit-offset-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-limit-offset-01.rq
+  query_file: data-r2/syntax-sparql1/syntax-limit-offset-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1188,14 +1188,14 @@
   name: syntax-limit-offset-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-limit-offset-02.rq
+  query_file: data-r2/syntax-sparql1/syntax-limit-offset-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1204,14 +1204,14 @@
   name: syntax-limit-offset-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-limit-offset-03.rq
+  query_file: data-r2/syntax-sparql1/syntax-limit-offset-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1220,14 +1220,14 @@
   name: syntax-limit-offset-04.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-limit-offset-04.rq
+  query_file: data-r2/syntax-sparql1/syntax-limit-offset-04.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1236,14 +1236,14 @@
   name: syntax-pat-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-pat-01.rq
+  query_file: data-r2/syntax-sparql1/syntax-pat-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JulSep/att-0118/04-dawg-minutes.html
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1252,14 +1252,14 @@
   name: syntax-pat-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-pat-02.rq
+  query_file: data-r2/syntax-sparql1/syntax-pat-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JulSep/att-0118/04-dawg-minutes.html
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1268,14 +1268,14 @@
   name: syntax-pat-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-pat-03.rq
+  query_file: data-r2/syntax-sparql1/syntax-pat-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JulSep/att-0118/04-dawg-minutes.html
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1284,14 +1284,14 @@
   name: syntax-pat-04.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/syntax-pat-04.rq
+  query_file: data-r2/syntax-sparql1/syntax-pat-04.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JulSep/att-0118/04-dawg-minutes.html
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql1/manifest.ttl
+  manifest: data-r2/syntax-sparql1/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1300,14 +1300,14 @@
   name: syntax-general-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-01.rq
+  query_file: data-r2/syntax-sparql2/syntax-general-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1316,14 +1316,14 @@
   name: syntax-general-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-02.rq
+  query_file: data-r2/syntax-sparql2/syntax-general-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1332,14 +1332,14 @@
   name: syntax-general-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-03.rq
+  query_file: data-r2/syntax-sparql2/syntax-general-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1348,14 +1348,14 @@
   name: syntax-general-04.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-04.rq
+  query_file: data-r2/syntax-sparql2/syntax-general-04.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1364,14 +1364,14 @@
   name: syntax-general-05.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-05.rq
+  query_file: data-r2/syntax-sparql2/syntax-general-05.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1380,14 +1380,14 @@
   name: syntax-general-06.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-06.rq
+  query_file: data-r2/syntax-sparql2/syntax-general-06.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1396,14 +1396,14 @@
   name: syntax-general-07.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-07.rq
+  query_file: data-r2/syntax-sparql2/syntax-general-07.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1412,14 +1412,14 @@
   name: syntax-general-08.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-08.rq
+  query_file: data-r2/syntax-sparql2/syntax-general-08.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1428,14 +1428,14 @@
   name: syntax-general-09.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-09.rq
+  query_file: data-r2/syntax-sparql2/syntax-general-09.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1444,14 +1444,14 @@
   name: syntax-general-10.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-10.rq
+  query_file: data-r2/syntax-sparql2/syntax-general-10.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1460,14 +1460,14 @@
   name: syntax-general-11.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-11.rq
+  query_file: data-r2/syntax-sparql2/syntax-general-11.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1476,14 +1476,14 @@
   name: syntax-general-12.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-12.rq
+  query_file: data-r2/syntax-sparql2/syntax-general-12.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1492,14 +1492,14 @@
   name: syntax-general-13.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-13.rq
+  query_file: data-r2/syntax-sparql2/syntax-general-13.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1508,14 +1508,14 @@
   name: syntax-general-14.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-general-14.rq
+  query_file: data-r2/syntax-sparql2/syntax-general-14.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1524,14 +1524,14 @@
   name: syntax-keywords-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-keywords-01.rq
+  query_file: data-r2/syntax-sparql2/syntax-keywords-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1540,14 +1540,14 @@
   name: syntax-keywords-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-keywords-02.rq
+  query_file: data-r2/syntax-sparql2/syntax-keywords-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1556,14 +1556,14 @@
   name: syntax-keywords-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-keywords-03.rq
+  query_file: data-r2/syntax-sparql2/syntax-keywords-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1572,14 +1572,14 @@
   name: syntax-lists-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-lists-01.rq
+  query_file: data-r2/syntax-sparql2/syntax-lists-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1588,14 +1588,14 @@
   name: syntax-lists-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-lists-02.rq
+  query_file: data-r2/syntax-sparql2/syntax-lists-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1604,14 +1604,14 @@
   name: syntax-lists-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-lists-03.rq
+  query_file: data-r2/syntax-sparql2/syntax-lists-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1620,14 +1620,14 @@
   name: syntax-lists-04.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-lists-04.rq
+  query_file: data-r2/syntax-sparql2/syntax-lists-04.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1636,14 +1636,14 @@
   name: syntax-lists-05.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-lists-05.rq
+  query_file: data-r2/syntax-sparql2/syntax-lists-05.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1652,14 +1652,14 @@
   name: syntax-bnode-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-bnode-01.rq
+  query_file: data-r2/syntax-sparql2/syntax-bnode-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1668,14 +1668,14 @@
   name: syntax-bnode-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-bnode-02.rq
+  query_file: data-r2/syntax-sparql2/syntax-bnode-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1684,14 +1684,14 @@
   name: syntax-bnode-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-bnode-03.rq
+  query_file: data-r2/syntax-sparql2/syntax-bnode-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1700,14 +1700,14 @@
   name: syntax-function-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-function-01.rq
+  query_file: data-r2/syntax-sparql2/syntax-function-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1716,14 +1716,14 @@
   name: syntax-function-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-function-02.rq
+  query_file: data-r2/syntax-sparql2/syntax-function-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1732,14 +1732,14 @@
   name: syntax-function-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-function-03.rq
+  query_file: data-r2/syntax-sparql2/syntax-function-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1748,14 +1748,14 @@
   name: syntax-function-04.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-function-04.rq
+  query_file: data-r2/syntax-sparql2/syntax-function-04.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1764,14 +1764,14 @@
   name: syntax-form-select-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-select-01.rq
+  query_file: data-r2/syntax-sparql2/syntax-form-select-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1780,14 +1780,14 @@
   name: syntax-form-select-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-select-02.rq
+  query_file: data-r2/syntax-sparql2/syntax-form-select-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1796,14 +1796,14 @@
   name: syntax-form-ask-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-ask-02.rq
+  query_file: data-r2/syntax-sparql2/syntax-form-ask-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1812,14 +1812,14 @@
   name: syntax-form-construct01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-construct01.rq
+  query_file: data-r2/syntax-sparql2/syntax-form-construct01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1828,14 +1828,14 @@
   name: syntax-form-construct02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-construct02.rq
+  query_file: data-r2/syntax-sparql2/syntax-form-construct02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1844,14 +1844,14 @@
   name: syntax-form-construct03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-construct03.rq
+  query_file: data-r2/syntax-sparql2/syntax-form-construct03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1860,14 +1860,14 @@
   name: syntax-form-construct04.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-construct04.rq
+  query_file: data-r2/syntax-sparql2/syntax-form-construct04.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1876,14 +1876,14 @@
   name: syntax-form-construct06.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-construct06.rq
+  query_file: data-r2/syntax-sparql2/syntax-form-construct06.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1892,14 +1892,14 @@
   name: syntax-form-describe01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-describe01.rq
+  query_file: data-r2/syntax-sparql2/syntax-form-describe01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1908,14 +1908,14 @@
   name: syntax-form-describe02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-form-describe02.rq
+  query_file: data-r2/syntax-sparql2/syntax-form-describe02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1924,14 +1924,14 @@
   name: syntax-dataset-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-dataset-01.rq
+  query_file: data-r2/syntax-sparql2/syntax-dataset-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1940,14 +1940,14 @@
   name: syntax-dataset-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-dataset-02.rq
+  query_file: data-r2/syntax-sparql2/syntax-dataset-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1956,14 +1956,14 @@
   name: syntax-dataset-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-dataset-03.rq
+  query_file: data-r2/syntax-sparql2/syntax-dataset-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1972,14 +1972,14 @@
   name: syntax-dataset-04.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-dataset-04.rq
+  query_file: data-r2/syntax-sparql2/syntax-dataset-04.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -1988,14 +1988,14 @@
   name: syntax-graph-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-graph-01.rq
+  query_file: data-r2/syntax-sparql2/syntax-graph-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2004,14 +2004,14 @@
   name: syntax-graph-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-graph-02.rq
+  query_file: data-r2/syntax-sparql2/syntax-graph-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2020,14 +2020,14 @@
   name: syntax-graph-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-graph-03.rq
+  query_file: data-r2/syntax-sparql2/syntax-graph-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2036,14 +2036,14 @@
   name: syntax-graph-04.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-graph-04.rq
+  query_file: data-r2/syntax-sparql2/syntax-graph-04.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2052,14 +2052,14 @@
   name: syntax-graph-05.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-graph-05.rq
+  query_file: data-r2/syntax-sparql2/syntax-graph-05.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2068,14 +2068,14 @@
   name: syntax-esc-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-esc-01.rq
+  query_file: data-r2/syntax-sparql2/syntax-esc-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2084,14 +2084,14 @@
   name: syntax-esc-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-esc-02.rq
+  query_file: data-r2/syntax-sparql2/syntax-esc-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2100,14 +2100,14 @@
   name: syntax-esc-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-esc-03.rq
+  query_file: data-r2/syntax-sparql2/syntax-esc-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2116,14 +2116,14 @@
   name: syntax-esc-04.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-esc-04.rq
+  query_file: data-r2/syntax-sparql2/syntax-esc-04.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2132,14 +2132,14 @@
   name: syntax-esc-05.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/syntax-esc-05.rq
+  query_file: data-r2/syntax-sparql2/syntax-esc-05.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql2/manifest.ttl
+  manifest: data-r2/syntax-sparql2/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2148,14 +2148,14 @@
   name: syn-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-01.rq
+  query_file: data-r2/syntax-sparql3/syn-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2164,14 +2164,14 @@
   name: syn-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-02.rq
+  query_file: data-r2/syntax-sparql3/syn-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2180,14 +2180,14 @@
   name: syn-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-03.rq
+  query_file: data-r2/syntax-sparql3/syn-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2196,14 +2196,14 @@
   name: syn-04.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-04.rq
+  query_file: data-r2/syntax-sparql3/syn-04.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2212,14 +2212,14 @@
   name: syn-05.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-05.rq
+  query_file: data-r2/syntax-sparql3/syn-05.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2228,14 +2228,14 @@
   name: syn-06.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-06.rq
+  query_file: data-r2/syntax-sparql3/syn-06.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2244,14 +2244,14 @@
   name: syn-07.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-07.rq
+  query_file: data-r2/syntax-sparql3/syn-07.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2260,14 +2260,14 @@
   name: syn-08.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-08.rq
+  query_file: data-r2/syntax-sparql3/syn-08.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2276,14 +2276,14 @@
   name: syn-bad-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-01.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2292,14 +2292,14 @@
   name: syn-bad-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-02.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2308,14 +2308,14 @@
   name: syn-bad-03.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-03.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-03.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2324,14 +2324,14 @@
   name: syn-bad-04.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-04.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-04.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2340,14 +2340,14 @@
   name: syn-bad-05.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-05.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-05.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2356,14 +2356,14 @@
   name: syn-bad-06.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-06.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-06.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2372,14 +2372,14 @@
   name: syn-bad-07.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-07.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-07.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2388,14 +2388,14 @@
   name: syn-bad-08.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-08.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-08.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2404,14 +2404,14 @@
   name: syn-bad-09.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-09.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-09.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2420,14 +2420,14 @@
   name: syn-bad-10.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-10.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-10.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2436,14 +2436,14 @@
   name: syn-bad-11.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-11.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-11.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2452,14 +2452,14 @@
   name: syn-bad-12.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-12.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-12.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2468,14 +2468,14 @@
   name: syn-bad-13.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-13.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-13.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2484,14 +2484,14 @@
   name: syn-bad-14.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-14.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-14.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2500,14 +2500,14 @@
   name: syn-bad-15.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-15.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-15.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2516,14 +2516,14 @@
   name: syn-bad-16.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-16.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-16.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2532,14 +2532,14 @@
   name: syn-bad-17.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-17.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-17.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2548,14 +2548,14 @@
   name: syn-bad-18.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-18.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-18.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2564,14 +2564,14 @@
   name: syn-bad-19.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-19.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-19.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2580,14 +2580,14 @@
   name: syn-bad-20.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-20.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-20.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2596,14 +2596,14 @@
   name: syn-bad-21.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-21.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-21.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2612,14 +2612,14 @@
   name: syn-bad-22.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-22.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-22.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2628,14 +2628,14 @@
   name: syn-bad-23.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-23.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-23.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2644,14 +2644,14 @@
   name: syn-bad-24.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-24.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-24.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2660,14 +2660,14 @@
   name: syn-bad-25.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-25.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-25.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2676,14 +2676,14 @@
   name: syn-bad-26.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-26.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-26.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JulSep/att-0118/04-dawg-minutes.html
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2692,14 +2692,14 @@
   name: syn-bad-27.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-27.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-27.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2708,14 +2708,14 @@
   name: syn-bad-28.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-28.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-28.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2724,14 +2724,14 @@
   name: syn-bad-29.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-29.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-29.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2740,14 +2740,14 @@
   name: syn-bad-30.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-30.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-30.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2756,14 +2756,14 @@
   name: syn-bad-31.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-31.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-31.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2772,14 +2772,14 @@
   name: syn-bad-bnode-dot.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-bnode-dot.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-bnode-dot.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2788,14 +2788,14 @@
   name: syn-bad-bnodes-missing-pvalues-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-bnodes-missing-pvalues-01.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-bnodes-missing-pvalues-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2804,14 +2804,14 @@
   name: syn-bad-bnodes-missing-pvalues-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-bnodes-missing-pvalues-02.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-bnodes-missing-pvalues-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2820,14 +2820,14 @@
   name: syn-bad-empty-optional-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-empty-optional-01.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-empty-optional-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2836,14 +2836,14 @@
   name: syn-bad-empty-optional-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-empty-optional-02.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-empty-optional-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2852,14 +2852,14 @@
   name: syn-bad-filter-missing-parens.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-filter-missing-parens.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-filter-missing-parens.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2868,14 +2868,14 @@
   name: syn-bad-lone-list.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-lone-list.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-lone-list.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2884,14 +2884,14 @@
   name: syn-bad-lone-node.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-bad-lone-node.rq
+  query_file: data-r2/syntax-sparql3/syn-bad-lone-node.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JanMar/0047
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2900,14 +2900,14 @@
   name: syn-blabel-cross-filter
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-blabel-cross-filter.rq
+  query_file: data-r2/syntax-sparql3/syn-blabel-cross-filter.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007AprJun/att-0012/2007-04-10-dawg-minutes.html#item06
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2916,14 +2916,14 @@
   name: syn-blabel-cross-graph-bad
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-blabel-cross-graph-bad.rq
+  query_file: data-r2/syntax-sparql3/syn-blabel-cross-graph-bad.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007AprJun/att-0012/2007-04-10-dawg-minutes.html#item06
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2932,14 +2932,14 @@
   name: syn-blabel-cross-optional-bad
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-blabel-cross-optional-bad.rq
+  query_file: data-r2/syntax-sparql3/syn-blabel-cross-optional-bad.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JulSep/att-0118/04-dawg-minutes.html
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2948,14 +2948,14 @@
   name: syn-blabel-cross-union-bad
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/syn-blabel-cross-union-bad.rq
+  query_file: data-r2/syntax-sparql3/syn-blabel-cross-union-bad.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JulSep/att-0118/04-dawg-minutes.html
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql3/manifest.ttl
+  manifest: data-r2/syntax-sparql3/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2964,14 +2964,14 @@
   name: syn-09.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-09.rq
+  query_file: data-r2/syntax-sparql4/syn-09.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2007/02/13-dawg-minutes.html
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  manifest: data-r2/syntax-sparql4/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2980,14 +2980,14 @@
   name: syn-10.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-10.rq
+  query_file: data-r2/syntax-sparql4/syn-10.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2007/02/13-dawg-minutes.html
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  manifest: data-r2/syntax-sparql4/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -2996,14 +2996,14 @@
   name: syn-11.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-11.rq
+  query_file: data-r2/syntax-sparql4/syn-11.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2007/02/13-dawg-minutes.html
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  manifest: data-r2/syntax-sparql4/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -3012,14 +3012,14 @@
   name: syn-bad-34.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-bad-34.rq
+  query_file: data-r2/syntax-sparql4/syn-bad-34.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2007/02/13-dawg-minutes.html
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  manifest: data-r2/syntax-sparql4/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -3028,14 +3028,14 @@
   name: syn-bad-35.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-bad-35.rq
+  query_file: data-r2/syntax-sparql4/syn-bad-35.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2007/02/13-dawg-minutes.html
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  manifest: data-r2/syntax-sparql4/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -3044,14 +3044,14 @@
   name: syn-bad-36.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-bad-36.rq
+  query_file: data-r2/syntax-sparql4/syn-bad-36.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2007/02/13-dawg-minutes.html
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  manifest: data-r2/syntax-sparql4/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -3060,14 +3060,14 @@
   name: syn-bad-37.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-bad-37.rq
+  query_file: data-r2/syntax-sparql4/syn-bad-37.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2007/02/13-dawg-minutes.html
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  manifest: data-r2/syntax-sparql4/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -3076,14 +3076,14 @@
   name: syn-bad-38.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-bad-38.rq
+  query_file: data-r2/syntax-sparql4/syn-bad-38.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://www.w3.org/2007/02/13-dawg-minutes.html
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  manifest: data-r2/syntax-sparql4/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -3092,14 +3092,14 @@
   name: syn-bad-OPT-breaks-BGP
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: "bad: re-used BNode label after OPTIONAL"
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-bad-OPT-breaks-BGP.rq
+  query_file: data-r2/syntax-sparql4/syn-bad-OPT-breaks-BGP.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007AprJun/att-0063/29-dawg-minutes.htm
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  manifest: data-r2/syntax-sparql4/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -3108,14 +3108,14 @@
   name: syn-bad-UNION-breaks-BGP
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: "bad: re-used BNode label after UNION"
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-bad-UNION-breaks-BGP.rq
+  query_file: data-r2/syntax-sparql4/syn-bad-UNION-breaks-BGP.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JulSep/att-0118/04-dawg-minutes.html
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  manifest: data-r2/syntax-sparql4/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -3124,14 +3124,14 @@
   name: syn-bad-GRAPH-breaks-BGP
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#NegativeSyntaxTest
   comment: "bad: re-used BNode label after GRAPH"
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-bad-GRAPH-breaks-BGP.rq
+  query_file: data-r2/syntax-sparql4/syn-bad-GRAPH-breaks-BGP.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007AprJun/att-0063/29-dawg-minutes.htm
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  manifest: data-r2/syntax-sparql4/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -3140,14 +3140,14 @@
   name: syn-leading-digits-in-prefixed-names.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/syn-leading-digits-in-prefixed-names.rq
+  query_file: data-r2/syntax-sparql4/syn-leading-digits-in-prefixed-names.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007AprJun/att-0063/29-dawg-minutes.htm
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql4/manifest.ttl
+  manifest: data-r2/syntax-sparql4/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -3156,14 +3156,14 @@
   name: syntax-reduced-01.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql5/syntax-reduced-01.rq
+  query_file: data-r2/syntax-sparql5/syntax-reduced-01.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007OctDec/att-0069/13-dawg-minutes.html
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql5/manifest.ttl
+  manifest: data-r2/syntax-sparql5/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true
@@ -3172,14 +3172,14 @@
   name: syntax-reduced-02.rq
   type: http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#PositiveSyntaxTest
   comment: 
-  query_file: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql5/syntax-reduced-02.rq
+  query_file: data-r2/syntax-sparql5/syntax-reduced-02.rq
   test_data: 
   graph_data: []
 
   result: 
   approval: http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#Approved
   approved_by: http://lists.w3.org/Archives/Public/public-rdf-dawg/2007OctDec/att-0069/13-dawg-minutes.html
-  manifest: /Users/gregg/Projects/sparql-tests/tests/data-r2/syntax-sparql5/manifest.ttl
+  manifest: data-r2/syntax-sparql5/manifest.ttl
   tags: !ruby/object:Set 
     hash: 
       status:unverified: true

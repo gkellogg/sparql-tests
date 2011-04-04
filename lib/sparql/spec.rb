@@ -42,6 +42,7 @@ module SPARQL
   #
   # @author [Arto Bendiken](http://ar.to/)
   # @author [Ben Lavender](http://bhuga.net/)
+  # @author [Gregg Kellogg](http://kellogg-assoc.com/)
   module Spec
     autoload :Manifest,         'sparql/spec/models'
     autoload :SPARQLTest,       'sparql/spec/models'
@@ -90,6 +91,7 @@ module SPARQL
           
         if options[:save_cache]
           puts "write test cases to #{options[:cache_file]}"
+          puts tests.first.for_yaml
           File.open(options[:cache_file], 'w') do |f|
             YAML.dump(tests.map(&:for_yaml), f)
           end
@@ -100,20 +102,23 @@ module SPARQL
     end
 
     def self.load_sparql1_0_tests(save_cache = false)
-      self.load_tests("#{BASE_DIRECTORY}/data-r2/manifest-evaluation.ttl",
+      self.load_tests(File.join(BASE_DIRECTORY, "data-r2/manifest-evaluation.ttl"),
         :cache_file => File.join(BASE_DIRECTORY, "sparql-specs-1_0-cache.yml"),
+        :base_uri => "data-r2/manifest-evaluation.ttl",
         :save_cache => save_cache)
     end
 
     def self.load_sparql1_0_syntax_tests(save_cache = false)
-      self.load_tests("#{BASE_DIRECTORY}/data-r2/manifest-syntax.ttl",
+      self.load_tests(File.join(BASE_DIRECTORY, "data-r2/manifest-syntax.ttl"),
         :cache_file => File.join(BASE_DIRECTORY, "sparql-specs-1_0_syntax-cache.yml"),
+        :base_uri => "data-r2/manifest-syntax.ttl",
         :save_cache => save_cache)
     end
 
     def self.load_sparql1_1_tests(save_cache = false)
-      self.load_tests("#{BASE_DIRECTORY}/sparql11-tests/data-sparql11/manifest-all.ttl",
+      self.load_tests(File.join(BASE_DIRECTORY, "sparql11-tests/data-sparql11/manifest-all.ttl"),
         :cache_file => File.join(BASE_DIRECTORY, "sparql-specs-1_1_cache.yml"),
+        :base_uri => "sparql11-tests/data-sparql11/manifest-all.ttl",
         :save_cache => save_cache)
     end
   end # Spec

@@ -28,7 +28,9 @@ module SPARQL::Spec
             next
           else
             puts "Loading #{file.path}"
-            self.class.repository.load(file.path, :context => file.path)
+            self.class.repository.load(File.join(BASE_DIRECTORY, file.path),
+            :context => file.path,
+            :base_uri => file.path)
           end
         end
       end
@@ -81,9 +83,9 @@ module SPARQL::Spec
     def graphs
       @graphs ||= begin
         graphs = {}
-        graphs[:default] = {:data => IO.read(action.test_data.path), :format => :ttl} if action.test_data
+        graphs[:default] = {:data => action.test_data_string, :format => :ttl} if action.test_data
         action.graphData.each do |g|
-          graphs[g] = {:data => IO.read(g.path), :format => :ttl}
+          graphs[g] = {:data => IO.read("#{BASE_DIRECTORY}/#{g.path}"), :format => :ttl}
         end
         graphs
       end
@@ -96,17 +98,17 @@ module SPARQL::Spec
       case form
       when :select
         if File.extname(result.path) == '.srx'
-          SPARQL::Client.parse_xml_bindings(File.read(result.path))
+          SPARQL::Client.parse_xml_bindings(File.read("#{BASE_DIRECTORY}/#{result.path}"))
         else
           expected_repository = RDF::Repository.new 
           Spira.add_repository!(:results, expected_repository)
-          expected_repository.load(result.path)
+          expected_repository.load("#{BASE_DIRECTORY}/#{result.path}")
           SPARQL::Spec::ResultBindings.each.first.solutions
         end
       when :ask
         return true
       when :describe, :create
-        RDF::Graph.load(result, :format => :ttl)
+        RDF::Graph.load("#{BASE_DIRECTORY}/#{result.path}", :format => :ttl)
       end
     end
 
@@ -128,7 +130,7 @@ module SPARQL::Spec
     end
 
     def form
-      query_data = begin IO.read(action.query_file.path) rescue nil end
+      query_data = begin action.query_string rescue nil end
       if query_data =~ /(ASK|CONSTRUCT|DESCRIBE|SELECT)/i
         case $1.upcase
           when 'ASK'
@@ -170,10 +172,10 @@ module SPARQL::Spec
   class SPARQLAction < Spira::Base
     property :query_file, :predicate => QT.query
     property :test_data,  :predicate => QT.data
-    has_many :graphData, :predicate => QT.graphData
+    has_many :graphData,  :predicate => QT.graphData
 
     def query_string
-      IO.read(query_file.path)
+      IO.read("#{BASE_DIRECTORY}/#{query_file.path}")
     end
 
     def sse_file
@@ -181,7 +183,11 @@ module SPARQL::Spec
     end
   
     def sse_string
-      IO.read(sse_file.path)
+      IO.read("#{BASE_DIRECTORY}/#{sse_file.path}")
+    end
+
+    def test_data_string
+      IO.read("#{BASE_DIRECTORY}/#{test_data.path}")
     end
   end
 
