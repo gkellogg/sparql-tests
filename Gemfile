@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gem "rspec"
 gem 'syntax'
 gem 'rdf-isomorphic', :require => 'rdf/isomorphic'
-gem 'rdf', ">= 0.3.0"
+gem 'rdf', ">= 0.3.4"
 gem 'addressable', '2.2.4'
 gem 'rdf-raptor', :require => 'rdf/raptor'
 gem 'rdf-n3',         '>= 0.3.1', :require => 'rdf/n3'
