@@ -85,7 +85,7 @@ FROM NAMED <data-g1.ttl>
 }
     end
 
-    example "dataset-03", :status => 'unverified' do
+    example "dataset-03" do
     
       graphs = {}
       graphs[:default] = { :data => @data, :format => :ttl}
@@ -98,13 +98,13 @@ FROM NAMED <data-g1.ttl>
       repository = 'dataset-dawg-dataset-03'
       expected = [
           { 
-              :g => RDF::URI('/Users/ben/Repos/datagraph/tests/tests/data-r2/dataset/data-g1.ttl'),
+              :g => RDF::URI('data-g1.ttl'),
               :o => RDF::Literal.new('1' , :datatype => RDF::URI('http://www.w3.org/2001/XMLSchema#integer')),
               :p => RDF::URI('http://example/p'),
               :s => RDF::URI('http://example/x'),
           },
           { 
-              :g => RDF::URI('/Users/ben/Repos/datagraph/tests/tests/data-r2/dataset/data-g1.ttl'),
+              :g => RDF::URI('data-g1.ttl'),
               :o => RDF::Literal.new('9' , :datatype => RDF::URI('http://www.w3.org/2001/XMLSchema#integer')),
               :p => RDF::URI('http://example/p'),
               :s => RDF::URI('http://example/a'),

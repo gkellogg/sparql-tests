@@ -14,11 +14,11 @@ require 'spec_helper'
 # This test is approved: 
 # http://lists.w3.org/Archives/Public/public-rdf-dawg/2007JulSep/att-0047/31-dawg-minutes
 #
-# 20101220 jaa : bug indicator : graphs are NYI
-
 describe "W3C test" do
   context "graph" do
     before :all do
+      # data-g3.ttl
+       # data-g4.ttl
       @data = %q{
 @prefix : <http://example/> .
 @prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
@@ -26,15 +26,13 @@ describe "W3C test" do
 _:x :p "1"^^xsd:integer .
 _:a :p "9"^^xsd:integer .
 
-}
-       # data-g4.ttl
-       @graph0 = %q{
 @prefix : <http://example/> .
 @prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
 
 _:x :q "2"^^xsd:integer .
 
 }
+
       @query = %q{
 PREFIX : <http://example/> 
 
@@ -47,12 +45,10 @@ SELECT *
 }
     end
 
-    example "graph-09", :status => 'bug' do
+    example "graph-09" do
     
       graphs = {}
       graphs[:default] = { :data => @data, :format => :ttl}
-
-      graphs[RDF::URI('data-g4.ttl')] = { :data => @graph0, :format => :ttl }
 
       repository = 'graph-dawg-graph-09'
       expected = [

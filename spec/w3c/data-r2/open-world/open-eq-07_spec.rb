@@ -16,6 +16,8 @@ require 'spec_helper'
 #
 # 20101219 jaa : add bug indicator : cannot reconcile the dawg's expected solution with the requirements
 #  for termEqual &co
+# 20110309 ben : add unverified and language tags
+# 20110315 jaa: the blank nodes were also an issue  
 
 describe "W3C test" do
   context "open-world" do
@@ -57,7 +59,7 @@ SELECT *
 }
     end
 
-    example "open-eq-07", :status => 'bug' do
+    example "open-eq-07", :blank_nodes => 'unique', :values => 'literal' do
     
       graphs = {}
       graphs[:default] = { :data => @data, :format => :ttl}
@@ -78,26 +80,26 @@ SELECT *
               :x2 => RDF::URI('http://example/x4'),
           },
           { 
-              :v1 => RDF::Literal.new('xyz' ),
-              :v2 => RDF::Literal.new('xyz' ),
+              :v1 => RDF::Literal.new('xyz' , :language => 'en'),
+              :v2 => RDF::Literal.new('xyz' , :language => 'en'),
               :x1 => RDF::URI('http://example/x2'),
               :x2 => RDF::URI('http://example/x2'),
           },
           { 
-              :v1 => RDF::Literal.new('xyz' ),
-              :v2 => RDF::Literal.new('xyz' ),
+              :v1 => RDF::Literal.new('xyz' , :language => 'en'),
+              :v2 => RDF::Literal.new('xyz' , :language => 'EN'),
               :x1 => RDF::URI('http://example/x2'),
               :x2 => RDF::URI('http://example/x3'),
           },
           { 
-              :v1 => RDF::Literal.new('xyz' ),
-              :v2 => RDF::Literal.new('xyz' ),
+              :v1 => RDF::Literal.new('xyz' , :language => 'EN'),
+              :v2 => RDF::Literal.new('xyz' , :language => 'en'),
               :x1 => RDF::URI('http://example/x3'),
               :x2 => RDF::URI('http://example/x2'),
           },
           { 
-              :v1 => RDF::Literal.new('xyz' ),
-              :v2 => RDF::Literal.new('xyz' ),
+              :v1 => RDF::Literal.new('xyz' , :language => 'EN'),
+              :v2 => RDF::Literal.new('xyz' , :language => 'EN'),
               :x1 => RDF::URI('http://example/x3'),
               :x2 => RDF::URI('http://example/x3'),
           },

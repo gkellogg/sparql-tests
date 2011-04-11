@@ -65,6 +65,7 @@ def sparql_query(opts)
     log "Running dydra clear #{repository_name} #{repository}"
     repository.clear!
     opts[:graphs].each do | graph, options |
+      next if options.nil?
       repository_file = case
         when options[:url]
           options[:url]
@@ -95,7 +96,7 @@ def sparql_query(opts)
     end
     raw_result = Dydra::Repository.new(account + '/' + opts[:repository]).query(opts[:query], format)
     log raw_result
-    if opts[:form] == :select || opts[:form] == :ask
+    if (opts[:form] == :select || opts[:form] == :ask) && comparing?
       result = SPARQL::Client.send("parse_#{format}_bindings".to_sym, raw_result)
       result = !!result if opts[:form] == :ask
     elsif
@@ -119,6 +120,10 @@ end
 
 def creating?
   ENV['CREATE']
+end
+
+def comparing?
+  !ENV['NOCOMPARE']
 end
 
 def log(what)

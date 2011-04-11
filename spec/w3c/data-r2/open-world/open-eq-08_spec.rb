@@ -16,6 +16,8 @@ require 'spec_helper'
 #
 # 20101219 jaa : add bug indicator : cannot reconcile the dawg's expected solution with the requirements
 #  for termEqual &co
+# 20110309 ben : add unverified and language tags
+# 20110315 jaa: the blank nodes were also an issue  
 
 describe "W3C test" do
   context "open-world" do
@@ -57,7 +59,7 @@ SELECT *
 }
     end
 
-    example "open-eq-08", :status => 'bug' do
+    example "open-eq-08", :blank_nodes => 'unique', :values => 'lexical' do
     
       graphs = {}
       graphs[:default] = { :data => @data, :format => :ttl}
@@ -67,13 +69,13 @@ SELECT *
       expected = [
           { 
               :v1 => RDF::Literal.new('xyz' ),
-              :v2 => RDF::Literal.new('xyz' ),
+              :v2 => RDF::Literal.new('xyz' , :language => 'en'),
               :x1 => RDF::URI('http://example/x1'),
               :x2 => RDF::URI('http://example/x2'),
           },
           { 
               :v1 => RDF::Literal.new('xyz' ),
-              :v2 => RDF::Literal.new('xyz' ),
+              :v2 => RDF::Literal.new('xyz' , :language => 'EN'),
               :x1 => RDF::URI('http://example/x1'),
               :x2 => RDF::URI('http://example/x3'),
           },
@@ -90,86 +92,86 @@ SELECT *
               :x2 => RDF::URI('http://example/x8'),
           },
           { 
-              :v1 => RDF::Literal.new('xyz' ),
+              :v1 => RDF::Literal.new('xyz' , :language => 'en'),
               :v2 => RDF::Literal.new('xyz' ),
               :x1 => RDF::URI('http://example/x2'),
               :x2 => RDF::URI('http://example/x1'),
           },
           { 
-              :v1 => RDF::Literal.new('xyz' ),
+              :v1 => RDF::Literal.new('xyz' , :language => 'en'),
               :v2 => RDF::Literal.new('xyz' , :datatype => RDF::URI('http://www.w3.org/2001/XMLSchema#string')),
               :x1 => RDF::URI('http://example/x2'),
               :x2 => RDF::URI('http://example/x4'),
           },
           { 
-              :v1 => RDF::Literal.new('xyz' ),
+              :v1 => RDF::Literal.new('xyz' , :language => 'en'),
               :v2 => RDF::Literal.new('xyz' , :datatype => RDF::URI('http://www.w3.org/2001/XMLSchema#integer')),
               :x1 => RDF::URI('http://example/x2'),
               :x2 => RDF::URI('http://example/x5'),
           },
           { 
-              :v1 => RDF::Literal.new('xyz' ),
+              :v1 => RDF::Literal.new('xyz' , :language => 'en'),
               :v2 => RDF::Literal.new('xyz' , :datatype => RDF::URI('http://example/unknown')),
               :x1 => RDF::URI('http://example/x2'),
               :x2 => RDF::URI('http://example/x6'),
           },
           { 
-              :v1 => RDF::Literal.new('xyz' ),
+              :v1 => RDF::Literal.new('xyz' , :language => 'en'),
               :v2 => RDF::Node.new('b0'),
               :x1 => RDF::URI('http://example/x2'),
               :x2 => RDF::URI('http://example/x7'),
           },
           { 
-              :v1 => RDF::Literal.new('xyz' ),
+              :v1 => RDF::Literal.new('xyz' , :language => 'en'),
               :v2 => RDF::URI('http://example/xyz'),
               :x1 => RDF::URI('http://example/x2'),
               :x2 => RDF::URI('http://example/x8'),
           },
           { 
-              :v1 => RDF::Literal.new('xyz' ),
+              :v1 => RDF::Literal.new('xyz' , :language => 'EN'),
               :v2 => RDF::Literal.new('xyz' ),
               :x1 => RDF::URI('http://example/x3'),
               :x2 => RDF::URI('http://example/x1'),
           },
           { 
-              :v1 => RDF::Literal.new('xyz' ),
+              :v1 => RDF::Literal.new('xyz' , :language => 'EN'),
               :v2 => RDF::Literal.new('xyz' , :datatype => RDF::URI('http://www.w3.org/2001/XMLSchema#string')),
               :x1 => RDF::URI('http://example/x3'),
               :x2 => RDF::URI('http://example/x4'),
           },
           { 
-              :v1 => RDF::Literal.new('xyz' ),
+              :v1 => RDF::Literal.new('xyz' , :language => 'EN'),
               :v2 => RDF::Literal.new('xyz' , :datatype => RDF::URI('http://www.w3.org/2001/XMLSchema#integer')),
               :x1 => RDF::URI('http://example/x3'),
               :x2 => RDF::URI('http://example/x5'),
           },
           { 
-              :v1 => RDF::Literal.new('xyz' ),
+              :v1 => RDF::Literal.new('xyz' , :language => 'EN'),
               :v2 => RDF::Literal.new('xyz' , :datatype => RDF::URI('http://example/unknown')),
               :x1 => RDF::URI('http://example/x3'),
               :x2 => RDF::URI('http://example/x6'),
           },
           { 
-              :v1 => RDF::Literal.new('xyz' ),
+              :v1 => RDF::Literal.new('xyz' , :language => 'EN'),
               :v2 => RDF::Node.new('b0'),
               :x1 => RDF::URI('http://example/x3'),
               :x2 => RDF::URI('http://example/x7'),
           },
           { 
-              :v1 => RDF::Literal.new('xyz' ),
+              :v1 => RDF::Literal.new('xyz' , :language => 'EN'),
               :v2 => RDF::URI('http://example/xyz'),
               :x1 => RDF::URI('http://example/x3'),
               :x2 => RDF::URI('http://example/x8'),
           },
           { 
               :v1 => RDF::Literal.new('xyz' , :datatype => RDF::URI('http://www.w3.org/2001/XMLSchema#string')),
-              :v2 => RDF::Literal.new('xyz' ),
+              :v2 => RDF::Literal.new('xyz' , :language => 'en'),
               :x1 => RDF::URI('http://example/x4'),
               :x2 => RDF::URI('http://example/x2'),
           },
           { 
               :v1 => RDF::Literal.new('xyz' , :datatype => RDF::URI('http://www.w3.org/2001/XMLSchema#string')),
-              :v2 => RDF::Literal.new('xyz' ),
+              :v2 => RDF::Literal.new('xyz' , :language => 'EN'),
               :x1 => RDF::URI('http://example/x4'),
               :x2 => RDF::URI('http://example/x3'),
           },
@@ -187,13 +189,13 @@ SELECT *
           },
           { 
               :v1 => RDF::Literal.new('xyz' , :datatype => RDF::URI('http://www.w3.org/2001/XMLSchema#integer')),
-              :v2 => RDF::Literal.new('xyz' ),
+              :v2 => RDF::Literal.new('xyz' , :language => 'en'),
               :x1 => RDF::URI('http://example/x5'),
               :x2 => RDF::URI('http://example/x2'),
           },
           { 
               :v1 => RDF::Literal.new('xyz' , :datatype => RDF::URI('http://www.w3.org/2001/XMLSchema#integer')),
-              :v2 => RDF::Literal.new('xyz' ),
+              :v2 => RDF::Literal.new('xyz' , :language => 'EN'),
               :x1 => RDF::URI('http://example/x5'),
               :x2 => RDF::URI('http://example/x3'),
           },
@@ -211,13 +213,13 @@ SELECT *
           },
           { 
               :v1 => RDF::Literal.new('xyz' , :datatype => RDF::URI('http://example/unknown')),
-              :v2 => RDF::Literal.new('xyz' ),
+              :v2 => RDF::Literal.new('xyz' , :language => 'en'),
               :x1 => RDF::URI('http://example/x6'),
               :x2 => RDF::URI('http://example/x2'),
           },
           { 
               :v1 => RDF::Literal.new('xyz' , :datatype => RDF::URI('http://example/unknown')),
-              :v2 => RDF::Literal.new('xyz' ),
+              :v2 => RDF::Literal.new('xyz' , :language => 'EN'),
               :x1 => RDF::URI('http://example/x6'),
               :x2 => RDF::URI('http://example/x3'),
           },
@@ -241,13 +243,13 @@ SELECT *
           },
           { 
               :v1 => RDF::Node.new('b0'),
-              :v2 => RDF::Literal.new('xyz' ),
+              :v2 => RDF::Literal.new('xyz' , :language => 'en'),
               :x1 => RDF::URI('http://example/x7'),
               :x2 => RDF::URI('http://example/x2'),
           },
           { 
               :v1 => RDF::Node.new('b0'),
-              :v2 => RDF::Literal.new('xyz' ),
+              :v2 => RDF::Literal.new('xyz' , :language => 'EN'),
               :x1 => RDF::URI('http://example/x7'),
               :x2 => RDF::URI('http://example/x3'),
           },
@@ -283,13 +285,13 @@ SELECT *
           },
           { 
               :v1 => RDF::URI('http://example/xyz'),
-              :v2 => RDF::Literal.new('xyz' ),
+              :v2 => RDF::Literal.new('xyz' , :language => 'en'),
               :x1 => RDF::URI('http://example/x8'),
               :x2 => RDF::URI('http://example/x2'),
           },
           { 
               :v1 => RDF::URI('http://example/xyz'),
-              :v2 => RDF::Literal.new('xyz' ),
+              :v2 => RDF::Literal.new('xyz' , :language => 'EN'),
               :x1 => RDF::URI('http://example/x8'),
               :x2 => RDF::URI('http://example/x3'),
           },

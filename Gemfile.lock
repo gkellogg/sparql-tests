@@ -1,6 +1,6 @@
 GIT
   remote: git@github.com:/dydra/dydra.git
-  revision: 92c1099edfe981441eb9ac0dd8a0f6703723263b
+  revision: c65ba5427f7e12e2f9274d867a3ea4e08e3f5c63
   specs:
     dydra (0.0.6)
       rdf (~> 0.3.0)
@@ -22,8 +22,8 @@ GEM
     promise (0.3.0)
     proxies (0.2.1)
     rake (0.8.7)
-    rdf (0.3.1)
-      addressable (>= 2.2.4)
+    rdf (0.3.2)
+      addressable (>= 2.2)
     rdf-isomorphic (0.3.4)
       rdf (>= 0.2.3)
     rdf-json (0.3.0)
@@ -64,6 +64,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  addressable (= 2.2.4)
   dydra!
   erubis
   rdf (>= 0.3.0)
