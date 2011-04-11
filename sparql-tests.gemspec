@@ -32,7 +32,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency     'rdf-isomorphic', '~> 0.3.0'
   gem.add_runtime_dependency     'rdf-n3',         '~> 0.3.0'
   gem.add_runtime_dependency     'rdf-rdfxml',     '~> 0.3.0'
-  gem.add_runtime_dependency     'rdf-spec',       '~> 0.3.0'
+  gem.add_runtime_dependency     'rdf-spec',       '>= 0.3.0'
   gem.add_runtime_dependency     'sparql-client',  '>= 0.0.9'
   gem.add_runtime_dependency     'spira',          '>= 0.0.12'
   gem.add_development_dependency 'yard' ,          '~> 0.6.0'
