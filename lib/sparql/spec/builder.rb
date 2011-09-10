@@ -153,5 +153,3 @@ share_as :A_SPARQL_Engine do
   end
 
 end
-
-
